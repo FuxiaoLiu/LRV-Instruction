@@ -12,8 +12,20 @@
 
 
 ## Contents
-- [Data Download](#data-download)
 - [Install](#install)
+- [Data Download](#data-download)
 - [Model Weights](#model-weights)
 - [Evaluation](#evaluation)
 - [Fine-tuning](#fine-tuning)
+
+##Install
+**1. Prepare the code and the environment**
+
+Git clone our repository, creating a python environment and ativate it via the following command
+
+```bash
+git clone https://github.com/Vision-CAIR/MiniGPT-4.git
+cd MiniGPT-4
+conda env create -f environment.yml
+conda activate minigpt4
+```
