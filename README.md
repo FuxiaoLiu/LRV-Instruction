@@ -19,7 +19,7 @@
 - [Fine-tuning](#fine-tuning)
 
 ##Install
-**1. Prepare the code and the environment**
+###1. Prepare the code and the environment**
 
 Git clone our repository, creating a python environment and ativate it via the following command
 
