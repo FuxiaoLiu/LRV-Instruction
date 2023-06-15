@@ -11,21 +11,12 @@
 - [6/17] 🔥 Our technical report is available on [arxiv](https://fuxiaoliu.github.io/LRV/) and [demo](https://fuxiaoliu.github.io/LRV/).
 
 
-## Contents
-- [Install](#install)
-- [Data Download](#data-download)
-- [Model Weights](#model-weights)
-- [Evaluation](#evaluation)
-- [Fine-tuning](#fine-tuning)
-
 ## Install
 ### 1. Prepare the code and the environment
+### 2. Prepare the pretrained Vicuna weights
 
-Git clone our repository, creating a python environment and ativate it via the following command
+## Launching Demo Locally
 
-```bash
-git clone https://github.com/Vision-CAIR/MiniGPT-4.git
-cd MiniGPT-4
-conda env create -f environment.yml
-conda activate minigpt4
-```
+## Visual Instruction Data
+
+## GPT4-Assisted Visual Instruction Evaluation
