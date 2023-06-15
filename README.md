@@ -10,3 +10,10 @@
 ## Release
 - [6/17] 🔥 Our technical report is available on [arxiv](https://fuxiaoliu.github.io/LRV/) and [demo](https://fuxiaoliu.github.io/LRV/).
 
+
+## Contents
+- [Data Download](#data-download)
+- [Install](#install)
+- [Model Weights](#model-weights)
+- [Evaluation](#evaluation)
+- [Fine-tuning](#fine-tuning)
