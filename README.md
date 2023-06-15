@@ -4,7 +4,7 @@
 [[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](https://fuxiaoliu.github.io/LRV/)] [[Demo](https://fuxiaoliu.github.io/LRV/)]  [[Data](https://fuxiaoliu.github.io/LRV/)] [[Model](https://fuxiaoliu.github.io/LRV/)]
 
 <p align="center">
-    <a href="https://llava.hliu.cc/"><img src="./model.png" width="80%"></a> <br>
+    <a href="https://llava.hliu.cc/"><img src="./model.png" width="70%"></a> <br>
 </p>
 
 ## Release
