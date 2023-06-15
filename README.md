@@ -8,3 +8,5 @@
 </p>
 
 ## Release
+- [6/17] 🔥 Our technical report is available on [arxiv](https://fuxiaoliu.github.io/LRV/) and [demo](https://fuxiaoliu.github.io/LRV/).
+
