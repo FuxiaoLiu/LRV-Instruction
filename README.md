@@ -1,1 +1,2 @@
-# LRV-Instruction
+# Aligning Large Multi-Modal Model with Robust Instruction Tuning
+[Fuxiao Liu](https://fuxiaoliu.github.io/), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [Linjie Li](https://www.microsoft.com/en-us/research/people/linjli/), [Jianfeng Wang](http://jianfengwang.me/), [Yaser Yacoob](https://www.umiacs.umd.edu/people/yaser) and [Lijuan Wang]([https://www.umiacs.umd.edu/people/yaser](https://www.microsoft.com/en-us/research/people/lijuanw/))
