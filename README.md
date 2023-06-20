@@ -59,11 +59,13 @@ After getting the dataset, then set the path to the dataset path in [MiniGPT-4/m
 ├── filter_cap.json
 ```
 
-**7. Evaluation**
+**7. Inference**
+
+Set the path of the inference instruction file [here](MiniGPT-4/minigpt4/conversation/conversation.py/#L237), inference image folder [here](MiniGPT-4/minigpt4/conversation/conversation.py/#L234) and output location [here](MiniGPT-4/minigpt4/conversation/conversation.py/#L300).
 
 ```
 MiniGPT-4
-python demo1.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
+python inference.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 ```
 
 **8. Launch the Demo**
