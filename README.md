@@ -47,7 +47,7 @@ If you have any questions, please email `fl3es@umd.edu`.
 ## Acknowledgement
 
 - [Vicuna](https://github.com/lm-sys/FastChat): The fantastic language ability of Vicuna amazing.
-- [MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4): Our model is finedtuned upon MiniGPT4!
+- [MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4): Many thanks to MiniGPT4, many of our codes are based on it!
 
 
 ## Citation
