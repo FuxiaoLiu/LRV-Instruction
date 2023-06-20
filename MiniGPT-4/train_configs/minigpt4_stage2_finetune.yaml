@@ -8,7 +8,7 @@ model:
   prompt_path: "prompts/alignment.txt"
   #prompt_path: './prompts/alignment1.txt'
   prompt_template: '###Human: {} ###Assistant: '
-  ckpt: '/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/Mi1/pretrained/prerained_minigpt4_7b.pth'
+  ckpt: '/path/to/prerained_minigpt4_7b.pth'
 
 
 datasets:
