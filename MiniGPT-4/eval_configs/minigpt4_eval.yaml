@@ -8,7 +8,7 @@ model:
   low_resource: True
   prompt_path: "prompts/alignment.txt"
   prompt_template: '###Human: {} ###Assistant: '
-  ckpt: '/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/exp/minigpt4_stage2_finetune_7B_keli_1p2n/20230523145/checkpoint_15.pth'
+  ckpt: '/path/to/checkpoint.pth'
 
   
 datasets:
