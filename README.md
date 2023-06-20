@@ -28,7 +28,7 @@ We introduce GPT4-Assisted Visual Instruction Evaluation (GAVIE) as a more flexi
 (2) Relevancy: whether the response directly follows the instruction. `prompts/GAVIE.txt` contains the prompt of GAVIE. Please see our paper for more details.
 
 ## Model
-### Install
+### Setup
 
 **1. Clone this repository**
 ```bash
@@ -49,7 +49,7 @@ Our model is finetuned on MiniGPT-4 with Vicuna-7B. Please refer to instruction 
 
 Download the pretrained checkpoints from [here](https://drive.google.com/drive/folders/15Uve6Av31Zd467aAc8N5Q_TkSdCjYoS1?usp=share_link). Then, set the path to the pretrained checkpoint in [MiniGPT-4/eval_configs/minigpt4_eval.yaml](MiniGPT-4/eval_configs/minigpt4_eval.yaml#L11) at Line 11.
 
-**6. Set the dataset path**
+**5. Set the dataset path**
 
 After getting the dataset, then set the path to the dataset path in [MiniGPT-4/minigpt4/configs/datasets/cc_sbu/align.yaml](MiniGPT-4/minigpt4/configs/datasets/cc_sbu/align.yaml#L5) at Line 5. The structure of the dataset folder is similar to the following:
 
