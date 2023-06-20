@@ -1,5 +1,6 @@
 Give  an image with following information: bounding box, positions that are the object left-top corner coordinates(X, Y), object sizes(Width, Height). Highly overlapping bounding boxes may refer to the same object.
 
+bounding box:
 food is in a tray X:20 Y:55 Width:470 Height:470
 the tray is white X:18 Y:56 Width:471 Height:471
 some pieces of chicken X:85 Y:149 Width:142 Height:142
