@@ -1,0 +1,66 @@
+Give an image with following information: bounding box, positions that are the object left-top corner coordinates(X, Y), object sizes(Width, Height). Highly overlapping bounding boxes may refer to the same object.
+
+bounding box:
+elephant heard on rocks X: 73 Y: 80 Width: 418 Height: 418
+woman wearing straw hat X: 179 Y: 285 Width: 23 Height: 43
+woman wearing long dress X: 176 Y: 298 Width: 35 Height: 83
+group of green chairs X: 153 Y: 326 Width: 95 Height: 126
+orange bucket on sidewalk X: 80 Y: 334 Width: 50 Height: 60
+man wearing white shirt X: 204 Y: 439 Width: 51 Height: 52
+baby elephant behind adult elephant X: 244 Y: 235 Width: 119 Height: 155
+group of umbrellas on deck X: 82 Y: 72 Width: 136 Height: 83
+person wearing yellow shirt X: 202 Y: 270 Width: 35 Height: 46
+water is dark green X: 252 Y: 87 Width: 231 Height: 99
+a baby elephant X: 297 Y: 317 Width: 60 Height: 69
+an orange bucket on the ground X: 91 Y: 341 Width: 38 Height: 36
+a group of white umbrellas X: 99 Y: 82 Width: 112 Height: 28
+a group of green chairs X: 149 Y: 364 Width: 94 Height: 86
+a man in an orange shirt X: 204 Y: 265 Width: 31 Height: 47
+a blue tin awning X: 65 Y: 190 Width: 88 Height: 95
+a woman wearing a yellow dress X: 169 Y: 298 Width: 47 Height: 76
+a woman wearing a tan hat X: 173 Y: 288 Width: 38 Height: 79
+a man sitting down X: 200 Y: 425 Width: 65 Height: 72
+a man wearing a white shirt X: 196 Y: 422 Width: 80 Height: 72
+a elephant coming out of the water X: 384 Y: 219 Width: 88 Height: 88
+a man sitting in a chair X: 200 Y: 428 Width: 79 Height: 67
+a orange basket X: 68 Y: 329 Width: 77 Height: 69
+blue chairs on a deck X: 150 Y: 325 Width: 98 Height: 142
+elephants walking on rocks X: 152 Y: 161 Width: 261 Height: 239
+a baby elephant X: 280 Y: 295 Width: 98 Height: 105
+white umbrellas outside a building X: 91 Y: 66 Width: 161 Height: 53
+a white tiled staircase X: 47 Y: 367 Width: 109 Height: 126
+someone taking a photo X: 12 Y: 3 Width: 75 Height: 73
+people standing on a deck X: 104 Y: 166 Width: 153 Height: 165
+plastic blue chairs  X: 146 Y: 318 Width: 93 Height: 129
+a herd of asian elephants  X: 83 Y: 110 Width: 409 Height: 308
+the elephant is stepping out of the river  X: 388 Y: 218 Width: 86 Height: 114
+a small elephant  X: 302 Y: 309 Width: 71 Height: 95
+this man is dressed in white  X: 208 Y: 416 Width: 49 Height: 82
+this man is dressed in white  X: 208 Y: 416 Width: 49 Height: 82
+she is wearing a sun hat and a dress  X: 175 Y: 287 Width: 64 Height: 112
+the people are gathered  X: 88 Y: 165 Width: 163 Height: 157
+they are watching the elephants  X: 87 Y: 167 Width: 165 Height: 179
+this person is recording the elephants  X: 18 Y: 6 Width: 74 Height: 113
+a rapid flowing river  X: 349 Y: 73 Width: 143 Height: 243
+a herd of a elephants moving through a town X: 78 Y: 108 Width: 386 Height: 274
+the trunk of an elephant X: 395 Y: 261 Width: 15 Height: 21
+a blue awning of a building X: 66 Y: 187 Width: 91 Height: 104
+blue chairs on a patio X: 152 Y: 324 Width: 76 Height: 120
+white umbrellas on a patio  X: 104 Y: 84 Width: 113 Height: 30
+a trunk of an elephant X: 335 Y: 254 Width: 14 Height: 27
+the tail of an elephant X: 308 Y: 233 Width: 16 Height: 32
+an orange bucket of on a patio X: 95 Y: 348 Width: 30 Height: 33
+the leaves of a tree X: 200 Y: 17 Width: 41 Height: 33
+the leaves of a tree X: 361 Y: 36 Width: 43 Height: 23
+
+Task: image captioning, Image Sentiment Analysis, Activity Recognition, Object Interaction Analysis, Object Attribute Detection, Muli-choice VQA, Visual Entailment, Visual Commonsense reasoning, Styled Image Caption, Referential Expression Grounding.
+
+Come up with 20 diverse instructions for all the tasks above with different language styles and accurate answers. The instructions should contain interrogative sentences and declarative sentences. The answers should be less than 30 words. Each task should have less than 3 instructions.
+
+Output format:
+Instruction: 
+instruction example
+Answer: 
+answer example
+Task: 
+task sample

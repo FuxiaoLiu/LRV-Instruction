@@ -1,0 +1,43 @@
+Give an image with following information: bounding box, positions that are the object left-top corner coordinates(X, Y), object sizes(Width, Height). Highly overlapping bounding boxes may refer to the same object.
+
+bounding box:
+there is light blue sky in the distance X: 366 Y: 15 Width: 17 Height: 42
+there is a white surfboard here X: 201 Y: 113 Width: 43 Height: 100
+there are black swim trunks here X: 276 Y: 146 Width: 34 Height: 67
+this man has long hair here X: 337 Y: 112 Width: 20 Height: 37
+there is some wild water here X: 58 Y: 63 Width: 51 Height: 96
+jackson mingus took this photo X: 173 Y: 31 Width: 165 Height: 174
+this man has very hairy legs X: 261 Y: 137 Width: 15 Height: 26
+there is a wonderful amount of coloring X: 176 Y: 53 Width: 122 Height: 167
+this photo will soon be published in a magazine X: 161 Y: 27 Width: 64 Height: 120
+this photo is a really artistic example X: 179 Y: 34 Width: 113 Height: 162
+black and white surf board X: 190 Y: 85 Width: 106 Height: 150
+black cotton swim trunks X: 268 Y: 149 Width: 49 Height: 59
+water splashed in air X: 51 Y: 65 Width: 174 Height: 137
+black decal on surf board X: 221 Y: 153 Width: 57 Height: 75
+man standing on surf board X: 248 Y: 92 Width: 120 Height: 135
+man surfing in ocean X: 188 Y: 77 Width: horizon where ocean meets the sky X: 250 Y: 42 Width: 190 Height: 54
+calm blue ocean water X: 412 Y: 77 Width: 73 Height: 41
+white surfboard mostly out of the water X: 194 Y: 70 Width: 95 Height: 165
+ocean wave around surfboard X: 341 Y: 178 Width: 152 Height: 50
+wave breaking on shore X: 2 Y: 177 Width: 494 Height: 57
+white foam in water X: 4 Y: 203 Width: 184 Height: 32
+black piece on surf board X: 190 Y: 96 Width: 22 Height: 19
+man riding a surf board X: 189 Y: 82 Width: 180 Height: 147
+man on surfboard X: 197 Y: 57 Width: 206 Height: 163
+white ocean spray from surfer X: 62 Y: 64 Width: 122 Height: 166
+three blue fins on surfboard X: 185 Y: 88 Width: 51 Height: 60
+man with arms up to balance X: 212 Y: 69 Width: 162 Height: 157
+photograph taken in the ocean X: 62 Y: 12 Width: 430 Height: 218
+design on bottom of surfboard X: 210 Y: 149 Width: 62 Height: 67
+man falling off surfboard X: 26 Y: 12 Width: 470 Height: 223
+
+
+Come up with 6 misleading instructions with existing objects with wrong attributes  in the images with different language styles. The instructions should contain interrogative and declarative sentences. Please also explain the reason.
+
+Output format:
+Instruction: 
+instruction example
+Reason:
+Reason example
+
