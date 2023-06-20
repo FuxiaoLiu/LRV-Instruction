@@ -61,17 +61,17 @@ After getting the dataset, then set the path to the dataset path in [MiniGPT-4/m
 
 **7. Evaluation**
 
-Try out our demo [demo.py](demo.py) on your local machine by running
-
 ```
-python demo.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
+MiniGPT-4
+python demo1.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 ```
 
 **8. Launch the Demo**
 
-Try out our demo [demo.py](demo.py) on your local machine by running
+Try out the demo [demo.py](demo.py) of our finetuned model on your local machine by running
 
 ```
+cd ./MiniGPT-4
 python demo.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 ```
 
