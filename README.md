@@ -67,7 +67,7 @@ Set the path of the inference instruction file [here](MiniGPT-4/minigpt4/convers
 cd ./MiniGPT-4
 python inference.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 ```
-### Launch the Demo
+## Launch the Demo
 
 Try out the demo [demo.py](demo.py) of our finetuned model on your local machine by running
 
