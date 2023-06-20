@@ -46,7 +46,7 @@ Our model is finetuned on MiniGPT-4 with Vicuna-7B. Please refer to instruction 
 
 4. Prepare the pretrained checkpoint of our model
 Download the pretrained checkpoints from [here](). Then, set the path to the pretrained checkpoint in the evaluation config file 
-in [MiniGPT-4/eval_configs/minigpt4_eval.yaml](eval_configs/minigpt4_eval.yaml#L11) at Line 11. 
+in [MiniGPT-4/eval_configs/minigpt4_eval.yaml](MiniGPT-4/eval_configs/minigpt4_eval.yaml#L11) at Line 11. 
 
 ## Questions
 If you have any questions, please email `fl3es@umd.edu`.
