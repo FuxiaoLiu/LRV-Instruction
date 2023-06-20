@@ -1,0 +1,25 @@
+model:
+  arch: mini_gpt4
+  model_type: pretrain_vicuna
+  freeze_vit: True
+  freeze_qformer: True
+  max_txt_len: 160
+  end_sym: "###"
+  low_resource: True
+  prompt_path: "prompts/alignment.txt"
+  prompt_template: '###Human: {} ###Assistant: '
+  ckpt: '/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/exp/minigpt4_stage2_finetune_7B_keli_1p2n/20230523145/checkpoint_15.pth'
+
+  
+datasets:
+  cc_sbu_align:
+    vis_processor:
+      train:
+        name: "blip2_image_eval"
+        image_size: 224
+    text_processor:
+      train:
+        name: "blip_caption"
+
+run:
+  task: image_text_pretrain
