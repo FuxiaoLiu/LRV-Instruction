@@ -52,7 +52,7 @@ If you have any questions, please email `fl3es@umd.edu`.
 
 ## Citation
 
-If you find LLaVA useful for your your research and applications, please cite using this BibTeX:
+If you find our work useful for your your research and applications, please cite using this BibTeX:
 ```bibtex
 ```
 
