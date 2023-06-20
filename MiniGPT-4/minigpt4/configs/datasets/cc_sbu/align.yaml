@@ -2,4 +2,4 @@ datasets:
   cc_sbu_align:
     data_type: images
     build_info:
-      storage: /fs/vulcan-projects/semantic_consistency_fuxiao/MSR/vg_dataset/cc_sbu_align/
+      storage: /path/to/MiniGPT-4/cc-sbu_align/
