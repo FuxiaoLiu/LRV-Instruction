@@ -1,0 +1,94 @@
+Give  an image with following information: bounding box, positions that are the object left-top corner coordinates(X, Y), object sizes(Width, Height). Highly overlapping bounding boxes may refer to the same object.
+
+food is in a tray X:20 Y:55 Width:470 Height:470
+the tray is white X:18 Y:56 Width:471 Height:471
+some pieces of chicken X:85 Y:149 Width:142 Height:142
+pile of white rice X:218 Y:112 Width:196 Height:196
+the carrot is orange X:177 Y:116 Width:67 Height:67
+a piece of broccoli X:83 Y:130 Width:52 Height:52
+the spoon is white X:0 Y:7 Width:69 Height:69
+spoon and napkin in plastic wrapper X:0 Y:0 Width:135 Height:135
+table is beige colored X:0 Y:17 Width:498 Height:498
+sauce on the tray X:382 Y:241 Width:72 Height:72
+a plastic spoon in a wrapper X:1 Y:4 Width:70 Height:70
+a beige tray  X:0 Y:17 Width:499 Height:499
+a serving of white rice  X:220 Y:115 Width:194 Height:194
+beef cubes with brown sauce  X:86 Y:151 Width:140 Height:140
+brown sauce on the side of a white container  X:363 Y:228 Width:102 Height:102
+a baby carrot  X:173 Y:115 Width:70 Height:70
+bots of cauliflower between two carrots  X:138 Y:95 Width:76 Height:76
+a bit of broccoli X:82 Y:127 Width:51 Height:51
+rice beef and veggie in a plastic container X:83 Y:96 Width:332 Height:332
+a white plastic container  X:19 Y:57 Width:472 Height:472
+circle of rice in a plate X:260 Y:119 Width:135 Height:135
+cut up pieces of meat X:93 Y:173 Width:45 Height:45
+small part of broccoli next to meat X:88 Y:130 Width:54 Height:54
+small part of cut up carrot X:98 Y:98 Width:73 Height:73
+meat sauce on the side of plate X:428 Y:228 Width:35 Height:35
+cut up cauliflower in the corner X:170 Y:98 Width:49 Height:49
+small part of plastic spoon in the corner X:1 Y:2 Width:75 Height:75
+tan folding table holding food X:243 Y:14 Width:182 Height:182
+small piece of napkin wrapped in plastic X:67 Y:8 Width:84 Height:84
+silver part of table attached to a table X:396 Y:1 Width:72 Height:72
+portion of cooked white rice X:213 Y:114 Width:200 Height:200
+kalua pork X:88 Y:150 Width:140 Height:140
+mixed cooked vegetables X:85 Y:95 Width:162 Height:162
+to go container with meat rick and vegetables X:21 Y:56 Width:469 Height:469
+meal in bottom half of to go container X:21 Y:55 Width:469 Height:469
+cooked carrot piece X:177 Y:117 Width:70 Height:70
+cooked cauliflower piece X:164 Y:95 Width:54 Height:54
+piece of cooked chopped broccoli X:84 Y:126 Width:49 Height:49
+cooked meat with skin on X:82 Y:153 Width:149 Height:149
+plastic to go spoon and napkin in plastic wrap X:3 Y:1 Width:132 Height:132
+serving of white rice  X:230 Y:131 Width:187 Height:187
+mixed veggies in container  X:99 Y:104 Width:145 Height:145
+chicken with sauce in container  X:89 Y:162 Width:132 Height:132
+white container with food  X:69 Y:65 Width:428 Height:428
+plastic spoon in wrap  X:3 Y:3 Width:98 Height:98
+beige tray with food on it  X:1 Y:28 Width:487 Height:487
+sauce inside white container  X:57 Y:252 Width:67 Height:67
+baby carrot beside rice  X:167 Y:117 Width:78 Height:78
+cauliflower beside baby carrot  X:145 Y:105 Width:67 Height:67
+crispy chicken with glaze  X:91 Y:187 Width:130 Height:130
+
+Here is the instruction for the image:
+Don't forget to notice the red wine glass beside the white container.
+
+
+Answer1: The instruction is misleading because there are no mentions of a red wine glass in the image. The declarative sentence in this instruction suggests that the reader should pay attention to a non-existent object.
+Answer2: Yes, I see the red wine glass and the white container.</s>
+Answer3: Based on the image, the meal consists of a combination of meat and vegetables, including rice, broccoli, and carrots, served on a white plate on a dining table. What can I do for you today?
+Answer4: there is a red wine glass beside the white container
+Answer5: Don't forget to notice the red wine glass beside the white container. It's a nice touch. This is a great idea. I'll have to try it. Thanks for sharing! I love this idea! I'm definitely going to try it. Thanks for sharing! I love this idea! I'm definitely going to try it. Thanks for sharing! I love this idea! I'm definitely going to try it. Thanks for sharing! I love this idea! I'm definitely going to try it. Thanks for sharing! I love this.
+
+
+Suppose you are a smart teacher, after looking at the image information above, please score the above answers(0-10) according to the following criteria:
+1: whether the response directly follows the instruction
+2: whether the response is accurate concerning the image content.
+
+
+Output format:
+
+relevancy: 
+score of answer1: 
+reason: 
+score of answer2: 
+reason: 
+score of answer3: 
+reason: 
+score of answer4: 
+reason: 
+score of answer5: 
+reason: 
+
+accuracy: 
+score of answer1: 
+reason: 
+score of answer2: 
+reason: 
+score of answer3: 
+reason: 
+score of answer4: 
+reason: 
+score of answer5: 
+reason: 
