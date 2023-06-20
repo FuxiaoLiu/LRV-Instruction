@@ -40,3 +40,15 @@ https://github.com/FuxiaoLiu/LRV-Instruction.git
 conda env create -f LRV.yml --name LRV
 conda activate LRV
 ```
+
+## Acknowledgement
+
+- [Vicuna](https://github.com/lm-sys/FastChat): The fantastic language ability of Vicuna amazing.
+- [MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4): Our model is finedtuned upon MiniGPT4!
+
+
+## Citation
+
+If you find LLaVA useful for your your research and applications, please cite using this BibTeX:
+```bibtex
+```
