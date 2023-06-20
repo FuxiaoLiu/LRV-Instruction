@@ -41,6 +41,9 @@ conda env create -f LRV.yml --name LRV
 conda activate LRV
 ```
 
+3.  Prepare the Vicuna weights
+Our model is finetuned on MiniGPT-4 with Vicuna-7B. Please refer to instruction [here](https://github.com/Vision-CAIR/MiniGPT-4/blob/main/PrepareVicuna.md) to prepare the Vicuna weights.
+
 ## Questions
 If you have any questions, please email `fl3es@umd.edu`.
 
