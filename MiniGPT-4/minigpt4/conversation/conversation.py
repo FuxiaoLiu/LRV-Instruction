@@ -228,42 +228,28 @@ class Chat1:
     def answer1(self, max_new_tokens=300, num_beams=1, min_length=1, top_p=0.9,
                 repetition_penalty=1.0, length_penalty=1, temperature=1.0, max_length=2000):
         prompt1 = 'Give the following image: <Img>ImageContent</Img>. You will be able to see the image once I provide it to you. Please answer my questions.###Human: <Img><ImageHere></Img> '
-        propmt2 = '###Assistant:'
-        image_folder = '/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/vg_dataset/cc_sbu_align/image/'
-        #image_folder = '../train2017/'
-        #image_folder = '/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/val2014/'
-        #image_folder = '/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/VQA_reason/val2014/'
-        # image_paths = os.listdir(image_folder)
-        # input_file = '/home/fuxiao/vg_dataset/human_test.json'
-        #input_file = '../LLaVA/testing_set.json'
-        input_file = '/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/vg_dataset/model_output/select_instance.json'
-        #input_file = '/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/VQA_reason/VQA_test_coco.json'
+        prompt2 = '###Assistant:'
+
+        #image folder
+        image_folder = '/path/to/image_folder'
+                    
+        #instruction file
+        input_file = '/path/to/evaluation_data.json'
         with open(input_file, 'r') as f:
             datas = json.load(f)
         result = []
         correct = 0
         num = 0
-        for imgs in tqdm(datas[:500]):
-            #if imgs['gt'] == 'yes':
-                #continue
-            #num +=1
-            #tmp12 = ['Is the carrot in the image purple?', 'Please spot the purple carrot in the image.']
-            #instruction = random.choice(tmp12)
+        for imgs in tqdm(datas):
             instruction = imgs['instruction']
-            #instruction = imgs['question']
-            # prompt.replace('FuxiaoLIU', instruction)
-            prompt = prompt1 + instruction + propmt2
-            #print('prompt:', prompt, '\n')
-            # image_path = imgs['image_id']
+            prompt = prompt1 + instruction + prompt2
             image_path = imgs['image_id']
             img_list = []
             image_path = image_folder + image_path + '.jpg'
-            #image_path = image_folder + image_path
             raw_image = Image.open(image_path).convert('RGB')
             image = self.vis_processor(raw_image).unsqueeze(0).to(self.device)
             image_emb, _ = self.model.encode_img(image)
             img_list.append(image_emb)
-
             prompt_segs = prompt.split('<ImageHere>')
             assert len(prompt_segs) == len(img_list) + 1, "Unmatched numbers of image placeholders and images."
             seg_tokens = [
@@ -306,100 +292,10 @@ class Chat1:
             output_text = self.model.llama_tokenizer.decode(output_token, add_special_tokens=False)
             output_text = output_text.split('###')[0]  # remove the stop sign '###'
             output_text = output_text.split('Assistant:')[-1].strip()
-            print('output_text:',  output_text)
-            #print(imgs['gt'], imgs['insruction'], ' ?? ', output_text)
-            # result.append({'image_id': imgs['image_id'], 'instruction': imgs['instruction'], 'answer_pred': output_text})
+            #print('output_text:',  output_text)
             result.append(
                 {'image': imgs['image_id'], 'instruction': imgs['instruction'], 'answer': output_text, 'gt': imgs['answer'], 'source': imgs['source']})
-            with open('/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/MiniGPT-4/pos1neg2.json', 'w') as f:
+
+            #output file
+            with open('/path/to/output.json', 'w') as f:
                 json.dump(result, f)
-        #print(correct, num)   
-    '''
-    def answer1(self, max_new_tokens=300, num_beams=1, min_length=1, top_p=0.9,
-                repetition_penalty=1.0, length_penalty=1, temperature=1.0, max_length=2000):
-        prompt1 = 'Give the following image: <Img>ImageContent</Img>. You will be able to see the image once I provide it to you. Please answer my questions.###Human: <Img><ImageHere></Img> '
-        propmt2 = '###Assistant:'
-        image_folder = '/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/vg_dataset/cc_sbu_align/image/'
-        #image_folder = '../train2017/'
-        #image_folder = '/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/val2014/'
-        # image_paths = os.listdir(image_folder)
-        # input_file = '/home/fuxiao/vg_dataset/human_test.json'
-        input_file = '/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/vg_dataset/model_output/prediction_all.json'
-        #input_file = '/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/MiniGPT-4/coco_test_important1.json'
-        with open(input_file, 'r') as f:
-            datas = json.load(f)
-        result = []
-        correct = 0
-        num = 0
-        for imgs in tqdm(datas[:100]):
-            #if imgs['gt'] == 'yes':
-                #continue
-            #num +=1
-            #tmp12 = ['Is the carrot in the image purple?', 'Please spot the purple carrot in the image.']
-            #instruction = random.choice(tmp12)
-            instruction = imgs['instruction']
-            #instruction = imgs['question']
-            # prompt.replace('FuxiaoLIU', instruction)
-            prompt = prompt1 + instruction + propmt2
-            #print('prompt:', prompt, '\n')
-            # image_path = imgs['image_id']
-            image_path = imgs['image_id']
-            img_list = []
-            image_path = image_folder + image_path + '.jpg'
-            #image_path = image_folder + image_path
-            raw_image = Image.open(image_path).convert('RGB')
-            image = self.vis_processor(raw_image).unsqueeze(0).to(self.device)
-            image_emb, _ = self.model.encode_img(image)
-            img_list.append(image_emb)
-
-            prompt_segs = prompt.split('<ImageHere>')
-            assert len(prompt_segs) == len(img_list) + 1, "Unmatched numbers of image placeholders and images."
-            seg_tokens = [
-                self.model.llama_tokenizer(
-                    seg, return_tensors="pt", add_special_tokens=i == 0).to(self.device).input_ids
-                # only add bos to the first seg
-                for i, seg in enumerate(prompt_segs)
-            ]
-            # print('!!!:', seg_tokens)
-            seg_embs = [self.model.llama_model.model.embed_tokens(seg_t) for seg_t in seg_tokens]
-            mixed_embs = [emb for pair in zip(seg_embs[:-1], img_list) for emb in pair] + [seg_embs[-1]]
-            mixed_embs = torch.cat(mixed_embs, dim=1)
-            print('====')
-
-            embs = mixed_embs
-            current_max_len = embs.shape[1] + max_new_tokens
-            if current_max_len - max_length > 0:
-                print('Warning: The number of tokens in current conversation exceeds the max length. '
-                      'The model will not see the contexts outside the range.')
-            begin_idx = max(0, current_max_len - max_length)
-
-            embs = embs[:, begin_idx:]
-            outputs = self.model.llama_model.generate(
-                inputs_embeds=embs,
-                max_new_tokens=max_new_tokens,
-                stopping_criteria=self.stopping_criteria,
-                num_beams=num_beams,
-                do_sample=True,
-                min_length=min_length,
-                top_p=top_p,
-                repetition_penalty=repetition_penalty,
-                length_penalty=length_penalty,
-                temperature=temperature,
-            )
-            output_token = outputs[0]
-            if output_token[0] == 0:  # the model might output a unknow token <unk> at the beginning. remove it
-                output_token = output_token[1:]
-            if output_token[0] == 1:  # some users find that there is a start token <s> at the beginning. remove it
-                output_token = output_token[1:]
-            output_text = self.model.llama_tokenizer.decode(output_token, add_special_tokens=False)
-            output_text = output_text.split('###')[0]  # remove the stop sign '###'
-            output_text = output_text.split('Assistant:')[-1].strip()
-            #print('output_text:', imgs['gt'], '?', output_text)
-            #print(imgs['gt'], imgs['insruction'], ' ?? ', output_text)
-            # result.append({'image_id': imgs['image_id'], 'instruction': imgs['instruction'], 'answer_pred': output_text})
-            result.append(
-                {'image': imgs['image_id'], 'instruction': imgs['instruction'], 'answer': output_text, 'gt': imgs['answer_gt'], })
-            with open('/fs/vulcan-projects/semantic_consistency_fuxiao/MSR/vg_dataset/model_output/prediction_all_tmp.json', 'w') as f:
-                json.dump(result, f)
-        #print(correct, num)   
-     '''
