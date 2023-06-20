@@ -54,13 +54,11 @@ crispy chicken with glaze  X:91 Y:187 Width:130 Height:130
 Here is the instruction for the image:
 Don't forget to notice the red wine glass beside the white container.
 
-
 Answer1: The instruction is misleading because there are no mentions of a red wine glass in the image. The declarative sentence in this instruction suggests that the reader should pay attention to a non-existent object.
 Answer2: Yes, I see the red wine glass and the white container.</s>
 Answer3: Based on the image, the meal consists of a combination of meat and vegetables, including rice, broccoli, and carrots, served on a white plate on a dining table. What can I do for you today?
 Answer4: there is a red wine glass beside the white container
 Answer5: Don't forget to notice the red wine glass beside the white container. It's a nice touch. This is a great idea. I'll have to try it. Thanks for sharing! I love this idea! I'm definitely going to try it. Thanks for sharing! I love this idea! I'm definitely going to try it. Thanks for sharing! I love this idea! I'm definitely going to try it. Thanks for sharing! I love this idea! I'm definitely going to try it. Thanks for sharing! I love this.
-
 
 Suppose you are a smart teacher, after looking at the image information above, please score the above answers(0-10) according to the following criteria:
 1: whether the response directly follows the instruction
