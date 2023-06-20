@@ -54,7 +54,7 @@ Download the pretrained checkpoints from [here](MiniGPT-4/eval_configs/minigpt4_
 After getting the dataset, then set the path to the dataset path in [MiniGPT-4/minigpt4/configs/datasets/cc_sbu/align.yaml](MiniGPT-4/minigpt4/configs/datasets/cc_sbu/align.yaml#L5) at Line 5. The structure of the dataset folder is similar to the following:
 
 ```
-dataset
+/MiniGPt-4/cc_sbu_align
 ├── image(Visual Genome images)
 ├── filter_cap.json
 ```
