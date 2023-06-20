@@ -77,6 +77,7 @@ python inference.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 You can access to our online demo [here](https://836baa7db87f13af58.gradio.live). If this link doesn't work, please email `fl3es@umd.edu` to update the link.
 
 **Local Demo**
+
 Try out the demo [demo.py](demo.py) of our finetuned model on your local machine by running
 
 ```
