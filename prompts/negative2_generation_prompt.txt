@@ -33,7 +33,7 @@ design on bottom of surfboard X: 210 Y: 149 Width: 62 Height: 67
 man falling off surfboard X: 26 Y: 12 Width: 470 Height: 223
 
 
-Come up with 6 misleading instructions with existing objects with wrong attributes  in the images with different language styles. The instructions should contain interrogative and declarative sentences. Please also explain the reason.
+Come up with 6 misleading instructions of existing objects with wrong attributes in the images with different language styles. The instructions should contain interrogative and declarative sentences. Please also explain the reason.
 
 Output format:
 Instruction: 
