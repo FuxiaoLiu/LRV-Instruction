@@ -15,6 +15,7 @@ Here is an overview of our work:
 ## Contents
 - [Dataset](#Visual_Instruction_Data_(LRV-Instruction))
 - [Evaluation](#GAVIE)
+- [Inference](#Inference)
 - [Demo](#Demo)
 
 ## Visual Instruction Data (LRV-Instruction)
