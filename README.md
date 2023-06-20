@@ -59,6 +59,22 @@ After getting the dataset, then set the path to the dataset path in [MiniGPT-4/m
 ├── filter_cap.json
 ```
 
+**7. Evaluation**
+
+Try out our demo [demo.py](demo.py) on your local machine by running
+
+```
+python demo.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
+```
+
+**8. Launch the Demo**
+
+Try out our demo [demo.py](demo.py) on your local machine by running
+
+```
+python demo.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
+```
+
 ## Questions
 If you have any questions, please email `fl3es@umd.edu`.
 
