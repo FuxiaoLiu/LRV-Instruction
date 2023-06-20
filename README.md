@@ -41,6 +41,9 @@ conda env create -f LRV.yml --name LRV
 conda activate LRV
 ```
 
+## Questions
+If you have any questions, please email `fl3es@umd.edu`.
+
 ## Acknowledgement
 
 - [Vicuna](https://github.com/lm-sys/FastChat): The fantastic language ability of Vicuna amazing.
