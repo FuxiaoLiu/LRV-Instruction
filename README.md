@@ -14,7 +14,7 @@ Here is an overview of our work:
 
 ## Contents
 - [Dataset](#Visual_Instruction_Data_(LRV-Instruction))
-- [Evaluation](#GPT4-Assisted_Visual_Instruction_Evaluation)
+- [Evaluation](#GPT4-AssistedVisualInstructionEvaluation)
 - [Demo](#Demo)
 
 ## Visual Instruction Data (LRV-Instruction)
