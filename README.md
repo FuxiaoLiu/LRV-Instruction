@@ -79,6 +79,14 @@ cd ./MiniGPT-4
 python demo.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 ```
 
+## Examples
+<p align="center">
+    <a href="https://llava.hliu.cc/"><img src="./examples/example1.png" width="70%"></a> <br>
+</p>
+<p align="center">
+    <a href="https://llava.hliu.cc/"><img src="./examples/example2.png" width="70%"></a> <br>
+</p>
+
 ## Questions
 If you have any questions, please email `fl3es@umd.edu`.
 
