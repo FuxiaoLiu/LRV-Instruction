@@ -245,7 +245,6 @@ dependencies:
       - rfc3986-validator==0.1.1
       - rich==13.3.5
       - safetensors==0.3.1
-      - salesforce-lavis==1.0.1
       - scikit-image==0.20.0
       - scikit-learn==1.2.2
       - scipy==1.9.1
