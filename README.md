@@ -40,7 +40,7 @@ https://github.com/FuxiaoLiu/LRV-Instruction.git
 
 **2. Install Package**
 ```Shell
-conda env create -f LRV.yml --name LRV
+conda env create -f environment.yml --name LRV
 conda activate LRV
 ```
 
