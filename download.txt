@@ -1,0 +1,18 @@
+pip install gdown
+
+#vicuna-7b
+gdown https://drive.google.com/uc?id=1WEX-jTOErhatRd6ijQhRqmvCsngADfPq
+
+
+#Images from VG dataset
+gdown https://drive.google.com/uc?id=1k9MNV-ImEV9BYEOeLEIb4uGEUZjd3QbM
+
+
+Since the website of Visual Genome dataset is down, we upload images for better reproducing our work in research community. 
+It must not be used for any other purposes. The use of these images must comply with the Visual Genome license. 
+This may be taken down at any time when requested by the original Visual Genome dataset owner or owners of the referenced images.
+
+
+
+
+
