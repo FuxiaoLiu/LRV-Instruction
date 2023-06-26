@@ -10,7 +10,7 @@ Here is an overview of our work:
 </p>
 
 ## Release
-- [6/20] 🔥 Our technical report is available on [arxiv](https://fuxiaoliu.github.io/LRV/).
+- [6/27] 🔥 Our technical report is available on [arxiv](https://fuxiaoliu.github.io/LRV/).
 
 ## Contents
 - [Dataset](#Visual_Instruction_Data_(LRV-Instruction))
