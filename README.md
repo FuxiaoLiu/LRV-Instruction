@@ -12,7 +12,7 @@ Here is an overview of our work:
 </p>
 
 ## Release
-- [x/x] We will release more data and our finetuned checkpoints for different LMMs.
+- [x/x] We will release more data and finetuned checkpoints for different LMMs.
 - [6/26] 🔥 Our technical report is available on [arxiv](http://arxiv.org/abs/2306.14565).
 
 ## Contents
