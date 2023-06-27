@@ -106,6 +106,12 @@ You can try the examples in [here](sample_images).
 
 If you find our work useful for your your research and applications, please cite using this BibTeX:
 ```bibtex
+@misc{2306.14565,
+Author = {Fuxiao Liu and Kevin Lin and Linjie Li and Jianfeng Wang and Yaser Yacoob and Lijuan Wang},
+Title = {Aligning Large Multi-Modal Model with Robust Instruction Tuning},
+Year = {2023},
+Eprint = {arXiv:2306.14565},
+}
 ```
 
 ## License
