@@ -8,5 +8,3 @@ Instruction for demo2.png:
 Instruction for demo3.png:
 1: A hot air balloon can be spotted above the tall tree.
 
-Instruction for demo4.png:
-2: What obiects are on the toddler's feet?
