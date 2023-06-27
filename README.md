@@ -13,7 +13,7 @@ Here is an overview of our work:
 
 ## Release
 - [x/x] We will release more data and our finetuned checkpoints for different LMMs.
-- [6/26] Our technical report is available on [arxiv](http://arxiv.org/abs/2306.14565).
+- [6/26] 🔥 Our technical report is available on [arxiv](http://arxiv.org/abs/2306.14565).
 
 ## Contents
 - [Dataset](#Visual_Instruction_Data_(LRV-Instruction))
