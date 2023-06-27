@@ -12,7 +12,8 @@ Here is an overview of our work:
 </p>
 
 ## Release
-- [6/27] 🔥 Our technical report is available on [arxiv](http://arxiv.org/abs/2306.14565).
+- [x/x] We will release more data and our finetuned checkpoints for different LMMs.
+- [6/26] Our technical report is available on [arxiv](http://arxiv.org/abs/2306.14565).
 
 ## Contents
 - [Dataset](#Visual_Instruction_Data_(LRV-Instruction))
@@ -58,7 +59,7 @@ pip install gdown
 gdown https://drive.google.com/uc?id=19CRSm5N4kwUy0sOiA5HWICVk31FDN144
 ```
 
-Then, set the path to the pretrained checkpoint in [MiniGPT-4/eval_configs/minigpt4_eval.yaml](MiniGPT-4/eval_configs/minigpt4_eval.yaml#L11) at Line 11.
+Then, set the path to the pretrained checkpoint in [MiniGPT-4/eval_configs/minigpt4_eval.yaml](MiniGPT-4/eval_configs/minigpt4_eval.yaml#L11) at Line 11. This checkpoint is based on MiniGPT-4-7B. We will release the checkpoints for  MiniGPT-4-13B and LLaVA in the future.
 
 **5. Set the dataset path**
 
