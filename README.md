@@ -53,11 +53,7 @@ Our model is finetuned on MiniGPT-4 with Vicuna-7B. Please refer to instruction 
 
 **4. Prepare the pretrained checkpoint of our model**
 
-Download the pretrained checkpoints from [here](https://drive.google.com/drive/folders/15Uve6Av31Zd467aAc8N5Q_TkSdCjYoS1?usp=share_link). Or use gdown:
-```Shell
-pip install gdown
-gdown https://drive.google.com/uc?id=19CRSm5N4kwUy0sOiA5HWICVk31FDN144
-```
+Download the pretrained checkpoints from [here](https://drive.google.com/drive/folders/15Uve6Av31Zd467aAc8N5Q_TkSdCjYoS1?usp=share_link).
 
 Then, set the path to the pretrained checkpoint in [MiniGPT-4/eval_configs/minigpt4_eval.yaml](MiniGPT-4/eval_configs/minigpt4_eval.yaml#L11) at Line 11. This checkpoint is based on [MiniGPT-4-7B](https://github.com/Vision-CAIR/MiniGPT-4). We will release the checkpoints for  MiniGPT-4-13B and LLaVA in the future.
 
