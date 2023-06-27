@@ -1,1 +1,12 @@
+Instructions for demo1.png:
+1: You might notice a painting of sunset hanging over stove in the kitchen.
+2: From the image, tell me what part of the room is tiled.
 
+Instruction for demo2.png:
+1: Can you locate the water bottle placed near the yellow tennis ball on the ground?
+
+Instruction for demo3.png:
+1: A hot air balloon can be spotted above the tall tree.
+
+Instruction for demo4.png:
+2: What obiects are on the toddler's feet?
