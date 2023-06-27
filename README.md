@@ -59,7 +59,7 @@ pip install gdown
 gdown https://drive.google.com/uc?id=19CRSm5N4kwUy0sOiA5HWICVk31FDN144
 ```
 
-Then, set the path to the pretrained checkpoint in [MiniGPT-4/eval_configs/minigpt4_eval.yaml](MiniGPT-4/eval_configs/minigpt4_eval.yaml#L11) at Line 11. This checkpoint is based on [MiniGPT-4-7B]. We will release the checkpoints for  MiniGPT-4-13B and LLaVA in the future.
+Then, set the path to the pretrained checkpoint in [MiniGPT-4/eval_configs/minigpt4_eval.yaml](MiniGPT-4/eval_configs/minigpt4_eval.yaml#L11) at Line 11. This checkpoint is based on [MiniGPT-4-7B](https://github.com/Vision-CAIR/MiniGPT-4). We will release the checkpoints for  MiniGPT-4-13B and LLaVA in the future.
 
 **5. Set the dataset path**
 
