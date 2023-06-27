@@ -3,6 +3,8 @@
 
 [[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](http://arxiv.org/abs/2306.14565)] [[Online Demo](https://7b6590ed039a06475d.gradio.live)]
 
+If the online demo doesn't work, please email `fl3es@umd.edu`.
+
 Here is an overview of our work:
 
 <p align="center">
@@ -101,8 +103,6 @@ python demo.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
     <a href="https://llava.hliu.cc/"><img src="./examples/example2.png" width="70%"></a> <br>
 </p>
 
-## Questions
-If you have any questions, please email `fl3es@umd.edu`.
 
 ## Acknowledgement
 
