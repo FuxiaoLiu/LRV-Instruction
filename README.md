@@ -96,6 +96,7 @@ You can try the examples in [here](sample_images).
 
 - [Vicuna](https://github.com/lm-sys/FastChat): The fantastic language ability of Vicuna amazing.
 - [MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4): Many thanks to MiniGPT4, many of our codes are based on it!
+- [Awesome-Multimodal-Large-Language-Models](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models#multimodal-instruction-tuning). The survey of LMMs is very helpful!
 
 
 ## Citation
