@@ -1,7 +1,7 @@
 # Aligning Large Multi-Modal Model with Robust Instruction Tuning
 [Fuxiao Liu](https://fuxiaoliu.github.io/), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [Linjie Li](https://www.microsoft.com/en-us/research/people/linjli/), [Jianfeng Wang](http://jianfengwang.me/), [Yaser Yacoob](https://www.umiacs.umd.edu/people/yaser), [Lijuan Wang](https://www.microsoft.com/en-us/research/people/lijuanw/)
 
-[[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](https://fuxiaoliu.github.io/LRV/)] [[Online Demo](https://134484a68290c9ec12.gradio.live)]
+[[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](https://fuxiaoliu.github.io/LRV/)] [[Online Demo](https://7b6590ed039a06475d.gradio.live)]
 
 Here is an overview of our work:
 
@@ -80,7 +80,7 @@ python inference.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 
 **Online Demo**
 
-You can access to our online demo [here](https://134484a68290c9ec12.gradio.live). If this link doesn't work, please email `fl3es@umd.edu` to update the link.
+You can access to our online demo [here](https://7b6590ed039a06475d.gradio.live). If this link doesn't work, please email `fl3es@umd.edu` to update the link.
 
 **Local Demo**
 
