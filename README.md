@@ -103,13 +103,12 @@ You can try the examples in [here](sample_images).
 
 If you find our work useful for your your research and applications, please cite using this BibTeX:
 ```bibtex
-@misc{liu2023aligning,
-      title={Aligning Large Multi-Modal Model with Robust Instruction Tuning}, 
-      author={Fuxiao Liu and Kevin Lin and Linjie Li and Jianfeng Wang and Yaser Yacoob and Lijuan Wang},
-      year={2023},
-      eprint={2306.14565},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+@article{Liu2023AligningLM,
+  title={Aligning Large Multi-Modal Model with Robust Instruction Tuning},
+  author={Fuxiao Liu and Kevin Lin and Linjie Li and Jianfeng Wang and Yaser Yacoob and Lijuan Wang},
+  journal={ArXiv},
+  year={2023},
+  volume={abs/2306.14565}
 }
 ```
 
