@@ -13,6 +13,7 @@ Here is an overview of our work:
 
 ## Release
 - [x/x] We will release more data and finetuned checkpoints for different LMMs.
+- [6/27] 🔥 Our paper is tweeted by [AK](https://twitter.com/_akhaliq).
 - [6/26] 🔥 Our technical report is available on [arxiv](http://arxiv.org/abs/2306.14565).
 
 ## Contents
