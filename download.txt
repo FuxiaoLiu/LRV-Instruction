@@ -1,5 +1,9 @@
 pip install gdown
 
+
+#Instruction data
+gdown https://drive.google.com/uc?id=1CePC1sIAH5l6Q-f6i7GttldvWbsqEbVG
+
 #vicuna-7b
 gdown https://drive.google.com/uc?id=1WEX-jTOErhatRd6ijQhRqmvCsngADfPq
 
