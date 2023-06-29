@@ -5,7 +5,7 @@ import openai
 openai.api_version = ""
 openai.api_key = ""
 
-prompt_path = './prompt_sample.txt'
+prompt_path = '/LRV-Instruction/prompts/positive_generation_prompt.txt'
 with open(prompt_path) as f:
   contents = f.read()
 
