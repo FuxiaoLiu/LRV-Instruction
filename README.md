@@ -92,6 +92,13 @@ python demo.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 ```
 You can try the examples in [here](sample_images).
 
+## Evaluation
+Our evaluation set is available at [here](Evaluation/evaluation_set.json).
+```
+{'image_id': '2380160', 'instruction': 'Identify the type of transportation infrastructure present in the scene.', 'answer_gt': 'Railroad tracks'}
+```
+For each instance, `image_id` refers to the image from [Visual Genome](https://arxiv.org/pdf/1602.07332v1.pdf). `instruction` refers to the instruction. `answer_gt` refers to the groundtruth answer from Text-Only GPT4 but we don't use them in our evaluation. You can download the annotations from [here](download.txt#L15).
+
 
 ## Acknowledgement
 
