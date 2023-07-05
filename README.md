@@ -1,7 +1,7 @@
 # Aligning Large Multi-Modal Model with Robust Instruction Tuning
 [Fuxiao Liu](https://fuxiaoliu.github.io/), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [Linjie Li](https://www.microsoft.com/en-us/research/people/linjli/), [Jianfeng Wang](http://jianfengwang.me/), [Yaser Yacoob](https://www.umiacs.umd.edu/people/yaser), [Lijuan Wang](https://www.microsoft.com/en-us/research/people/lijuanw/)
 
-[[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](http://arxiv.org/abs/2306.14565)] [[Online Demo](https://91d97bb65ef3654938.gradio.live)]
+[[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](http://arxiv.org/abs/2306.14565)] [[Online Demo](https://b3ba5d2f76d7885bf4.gradio.live)]
 
 If the online demo doesn't work, please email `fl3es@umd.edu`.
 
@@ -76,7 +76,7 @@ python inference.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 
 **Online Demo**
 
-You can access to our online demo [here](https://91d97bb65ef3654938.gradio.live). If this link doesn't work, please email `fl3es@umd.edu` to update the link.
+You can access to our online demo [here](https://b3ba5d2f76d7885bf4.gradio.live). If this link doesn't work, please email `fl3es@umd.edu` to update the link.
 
 **Local Demo**
 
@@ -114,12 +114,11 @@ To evaluate your model outputs, first download the vg annotations from [here](do
 
 If you find our work useful for your your research and applications, please cite using this BibTeX:
 ```bibtex
-@article{Liu2023AligningLM,
+@article{liu2023aligning,
   title={Aligning Large Multi-Modal Model with Robust Instruction Tuning},
-  author={Fuxiao Liu and Kevin Lin and Linjie Li and Jianfeng Wang and Yaser Yacoob and Lijuan Wang},
-  journal={ArXiv},
-  year={2023},
-  volume={abs/2306.14565}
+  author={Liu, Fuxiao and Lin, Kevin and Li, Linjie and Wang, Jianfeng and Yacoob, Yaser and Wang, Lijuan},
+  journal={arXiv preprint arXiv:2306.14565},
+  year={2023}
 }
 ```
 
