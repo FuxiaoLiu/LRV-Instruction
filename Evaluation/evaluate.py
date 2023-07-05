@@ -23,8 +23,8 @@ for data in tqdm(datas):
     L.append(data['instruction'] +'\n\n')
 
     #The following two are sample answers, replace them with ones from your models
-    answer_sample1 = 'test sample1'
-    answer_sample2 = 'test sample2'
+    answer_sample1 = 'answer sample1'
+    answer_sample2 = 'answer sample2'
   
     L.append('Answer1: ' + answer_sample1 + '\n')
     L.append('Answer2: ' + answer_sample2 + '\n\n')
