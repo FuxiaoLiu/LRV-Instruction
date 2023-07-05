@@ -1,9 +1,9 @@
-json_file = './vg_annotation.json'
-with open(json_file, "rb") as f:
+vg_annotation_file = './vg_annotation.json'
+with open(vg_annotation_file, "rb") as f:
     names = json.load(f)
 
-path = './evaluation_set.json'
-with open(path, "rb") as f:
+evaluation_set_file = './evaluation_set.json'
+with open(evaluation_set_file, "rb") as f:
     datas = json.load(f)
 
 ids = []
