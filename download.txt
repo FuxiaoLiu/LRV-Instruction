@@ -11,6 +11,9 @@ gdown https://drive.google.com/uc?id=1WEX-jTOErhatRd6ijQhRqmvCsngADfPq
 #Images from VG dataset
 gdown https://drive.google.com/uc?id=1k9MNV-ImEV9BYEOeLEIb4uGEUZjd3QbM
 
+#The annotation file from vg dataset(dense captions and bounding boxes)
+gdown https://drive.google.com/uc?id=1h7_gsriFZTmDjQVtfClN-zLxFOCI9HSV
+
 
 Since the website of Visual Genome dataset is down, we upload images for better reproducing our work in research community. 
 It must not be used for any other purposes. The use of these images must comply with the Visual Genome license. 
