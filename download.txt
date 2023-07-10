@@ -15,8 +15,7 @@ gdown https://drive.google.com/uc?id=1k9MNV-ImEV9BYEOeLEIb4uGEUZjd3QbM
 gdown https://drive.google.com/uc?id=1h7_gsriFZTmDjQVtfClN-zLxFOCI9HSV
 
 #model checkpoint
-gdown https://drive.google.com/uc?id=1lnUhPzAVkxnnAYnp2lXf0_eNorzn7A5b
-
+gdown https://drive.google.com/uc?id=11KJA8bSNi1yxgcijsG3xfBHvWe8C748F
 
 Since the website of Visual Genome dataset is down, we upload images for better reproducing our work in research community. 
 It must not be used for any other purposes. The use of these images must comply with the Visual Genome license. 
