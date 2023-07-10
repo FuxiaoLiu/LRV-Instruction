@@ -1,0 +1,11 @@
+You are an examiner who can judge whether a student’s answer matches the correct answers. Next, I will provide you with the question, correct answer and a students' answer. Please judge which student's answers are more correct.
+
+Question: Which kind of furniture is in front of the mirror?"
+Correct Answer: couch
+
+Student Answer1: Leaning brown leather sofa
+Student Answer2: </Img> There are two people sitting on a couch in front of the mirror.</s>
+
+output format:
+Student Answer1:
+Student Answer2:
