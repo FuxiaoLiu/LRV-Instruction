@@ -107,7 +107,7 @@ We run evaluation on [GQA](https://cs.stanford.edu/people/dorarad/gqa/download.h
 
 In order to reproduce the results, first download [GQA](https://cs.stanford.edu/people/dorarad/gqa/download.html) and select the samples. Second, format the input data as json file and set the path of the inference instruction file [here](MiniGPT-4/minigpt4/conversation/conversation.py/#L237), inference image folder [here](MiniGPT-4/minigpt4/conversation/conversation.py/#L234) and output location [here](MiniGPT-4/minigpt4/conversation/conversation.py/#L300). Third, after getting the output from models, follow the [prompt](Evaluation/GQA_Evaluation_prompt.txt) to format the input for GPT4. One example is below:
 ```
-You are an examiner who can judge whether a student’s answer matches the correct answers. Next, I will provide you with the question, correct answer and a students' answer. Please judge which answers are correct.
+You are an examiner who can judge whether students' answer match the correct answers. Next, I will provide you with the question, correct answer and a students' answer. Please judge which answers are correct.
 
 Question: Which kind of furniture is in front of the mirror?"
 Correct Answer: couch
