@@ -1,7 +1,7 @@
 # Aligning Large Multi-Modal Model with Robust Instruction Tuning
 [Fuxiao Liu](https://fuxiaoliu.github.io/), [Kevin Lin](https://sites.google.com/site/kevinlin311tw/me), [Linjie Li](https://www.microsoft.com/en-us/research/people/linjli/), [Jianfeng Wang](http://jianfengwang.me/), [Yaser Yacoob](https://www.umiacs.umd.edu/people/yaser), [Lijuan Wang](https://www.microsoft.com/en-us/research/people/lijuanw/)
 
-[[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](http://arxiv.org/abs/2306.14565)] [[Online Demo](https://b3ba5d2f76d7885bf4.gradio.live)]
+[[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](http://arxiv.org/abs/2306.14565)] [[Online Demo](https://aaae6308ff20ab9b96.gradio.live)]
 
 If the online demo doesn't work, please email `fl3es@umd.edu`.
 
@@ -68,7 +68,7 @@ After getting the dataset, then set the path to the dataset path in [MiniGPT-4/m
 
 **Online Demo**
 
-You can access to our online demo [here](https://b3ba5d2f76d7885bf4.gradio.live). If this link doesn't work, please email `fl3es@umd.edu` to update the link.
+You can access to our online demo [here](https://aaae6308ff20ab9b96.gradio.live). If this link doesn't work, please email `fl3es@umd.edu` to update the link.
 
 **Local Demo**
 
