@@ -3,7 +3,8 @@
 
 [[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](http://arxiv.org/abs/2306.14565)] 
 
-[[LRV-7B Demo](https://a6189d5c866d776d9c.gradio.live)], [[MiniGPT4-7B Demo](https://a284c60af9a692b3cc.gradio.live)]
+You can compare between our model and original MiniGPT4-7B below:
+[[LRV-7B Demo](https://33a0cb742a7b1ac938.gradio.live/)], [[MiniGPT4-7B Demo](https://a284c60af9a692b3cc.gradio.live)]
 
 If the online demo doesn't work, please email `fl3es@umd.edu`.
 
@@ -70,7 +71,7 @@ After getting the dataset, then set the path to the dataset path in [MiniGPT-4/m
 
 **Online Demo**
 
-You can access to our online demo [here](https://a6189d5c866d776d9c.gradio.live). If this link doesn't work, please email `fl3es@umd.edu` to update the link.
+You can access to our online demo [here](https://33a0cb742a7b1ac938.gradio.live/). If this link doesn't work, please email `fl3es@umd.edu` to update the link.
 
 **Local Demo**
 
