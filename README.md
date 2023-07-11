@@ -3,7 +3,7 @@
 
 [[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](http://arxiv.org/abs/2306.14565)] 
 
-[[LRV-7B Demo](https://a6189d5c866d776d9c.gradio.live)], [MiniGPT4-7B Demo](https://a284c60af9a692b3cc.gradio.live)]
+[[LRV-7B Demo](https://a6189d5c866d776d9c.gradio.live)], [[MiniGPT4-7B Demo](https://a284c60af9a692b3cc.gradio.live)]
 
 If the online demo doesn't work, please email `fl3es@umd.edu`.
 
