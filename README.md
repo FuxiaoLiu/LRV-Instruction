@@ -3,10 +3,11 @@
 
 [[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](http://arxiv.org/abs/2306.14565)] 
 
-You can compare between our model and original MiniGPT4-7B below:
+You can compare between our model and original MiniGPT4-7B below. If the online demo doesn't work, please email `fl3es@umd.edu`.
+
 [[LRV-7B Demo](https://33a0cb742a7b1ac938.gradio.live/)], [[MiniGPT4-7B Demo](https://a284c60af9a692b3cc.gradio.live)]
 
-If the online demo doesn't work, please email `fl3es@umd.edu`.
+
 
 Here is an overview of our work:
 
