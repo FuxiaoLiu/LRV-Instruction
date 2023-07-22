@@ -16,7 +16,7 @@ Here is an overview of our work:
 </p>
 
 ## Updates
-- [6/20] 🔥Our dataset is available on [Hugging Face](https://huggingface.co/datasets/VictorSanh/LrvInstruction).
+- [6/30] 🔥Our dataset is available on [Hugging Face](https://huggingface.co/datasets/VictorSanh/LrvInstruction).
 - [6/27] 🔥 Our paper is tweeted by [AK](https://twitter.com/_akhaliq).
 - [6/26] 🔥 Our technical report is available on [arxiv](http://arxiv.org/abs/2306.14565).
 
