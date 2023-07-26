@@ -5,7 +5,7 @@
 
 You can compare between our model and original MiniGPT4-7B below. If the online demo doesn't work, please email `fl3es@umd.edu`.
 
-[[LRV-7B Demo](https://7044fc0c336159ed23.gradio.live)], [[MiniGPT4-7B Demo](https://a284c60af9a692b3cc.gradio.live)]
+[[LRV-7B Demo](https://7044fc0c336159ed23.gradio.live)], [[MiniGPT4-7B Demo](https://65041a31787a37052a.gradio.live)]
 
 
 
