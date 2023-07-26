@@ -5,7 +5,7 @@
 
 You can compare between our model and original MiniGPT4-7B below. If the online demo doesn't work, please email `fl3es@umd.edu`.
 
-[[LRV-7B Demo](https://7044fc0c336159ed23.gradio.live)], [[MiniGPT4-7B Demo](https://65041a31787a37052a.gradio.live)]
+[[LRV-7B Demo](https://c2afd1fd738e9c202e.gradio.live)], [[MiniGPT4-7B Demo](https://65041a31787a37052a.gradio.live)]
 
 
 
@@ -72,7 +72,7 @@ After getting the dataset, then set the path to the dataset path in [MiniGPT-4/m
 
 **Online Demo**
 
-You can access to our online demo [here](https://7044fc0c336159ed23.gradio.live). If this link doesn't work, please email `fl3es@umd.edu` to update the link.
+You can access to our online demo [here](https://c2afd1fd738e9c202e.gradio.live). If this link doesn't work, please email `fl3es@umd.edu` to update the link.
 
 **Local Demo**
 
