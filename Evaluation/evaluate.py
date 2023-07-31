@@ -22,7 +22,7 @@ for data in tqdm(datas):
     L.append('Here is the instruction for the image:\n')
     L.append(data['instruction'] +'\n\n')
 
-    #The following two are sample answers, replace them with ones from your models
+    #The following two are sample answers from different models, one answer from each model. I mean you can evaluate several answers for the same image and instruction in one prompt.
     answer_sample1 = 'answer sample1'
     answer_sample2 = 'answer sample2'
   
