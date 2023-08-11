@@ -39,6 +39,8 @@ We provide our prompts for GPT-4 queries to better facilitate research in this d
 
 ### 🐒LRV-Instruction(V1) Setup
 * LRV-Instruction(V1) is based on MiniGPT4-7B.
+
+
 **1. Clone this repository**
 ```bash
 https://github.com/FuxiaoLiu/LRV-Instruction.git
@@ -91,6 +93,8 @@ python inference.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 
 ### 🐒LRV-Instruction(V2) Setup
 * LRV-Instruction(V1) is based on plug-Owl-7B.
+
+
 **1. Install the environment according to [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl#Usage).**
 
 We finetuned mplug-owl on 8 V100. If you meet any questions when implement on V100, feel free to let me know!
