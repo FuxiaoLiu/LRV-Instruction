@@ -133,6 +133,10 @@ When you launch the demo in local machine, you might find there is no space for 
 python -m serve.web_server --base-model 'the mplug-owl checkpoint directory' --bf16
 ```
 
+**5. Model Inference**
+
+The batch inference code will be released soon!
+
 
 
 
