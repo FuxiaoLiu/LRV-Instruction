@@ -16,7 +16,7 @@ response = openai.ChatCompletion.create(
 result = response['choices'][0]['message']['content']
 
 output_path = './output_sample.txt'
-file = open(path32, "w")
+file = open(output_path, "w")
 L = []
 L.append(result)
 file.writelines(L)
