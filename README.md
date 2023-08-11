@@ -73,13 +73,7 @@ After getting the dataset, then set the path to the dataset path in [MiniGPT-4/m
 ├── filter_cap.json
 ```
 
-## Demo
-
-**Online Demo**
-
-You can access to our online demo [here](https://c2afd1fd738e9c202e.gradio.live). If this link doesn't work, please email `fl3es@umd.edu` to update the link.
-
-**Local Demo**
+**6. Local Demo**
 
 Try out the demo [demo.py](demo.py) of our finetuned model on your local machine by running
 
@@ -89,7 +83,7 @@ python demo.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 ```
 You can try the examples in [here](sample_images).
 
-## Inference
+**7. Model Inference**
 
 Set the path of the inference instruction file [here](MiniGPT-4/minigpt4/conversation/conversation.py/#L237), inference image folder [here](MiniGPT-4/minigpt4/conversation/conversation.py/#L234) and output location [here](MiniGPT-4/minigpt4/conversation/conversation.py/#L300). We don't run inference in the training process.
 
@@ -97,6 +91,8 @@ Set the path of the inference instruction file [here](MiniGPT-4/minigpt4/convers
 cd ./MiniGPT-4
 python inference.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 ```
+### LRV-Mplug-Owl Setup
+
 
 ## Evaluation(GAVIE)
 
