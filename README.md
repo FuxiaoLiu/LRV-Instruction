@@ -41,7 +41,7 @@ We provide our prompts for GPT-4 queries to better facilitate research in this d
 
 ## Models
 
-### LRV-MiniGPT4 Setup
+### 🐒LRV-MiniGPT4 Setup
 **1. Clone this repository**
 ```bash
 https://github.com/FuxiaoLiu/LRV-Instruction.git
@@ -91,8 +91,12 @@ Set the path of the inference instruction file [here](MiniGPT-4/minigpt4/convers
 cd ./MiniGPT-4
 python inference.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 ```
-### LRV-Mplug-Owl Setup
 
+### 🐒LRV-Mplug-Owl Setup
+
+**1. Install the environment according to [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl#Usage)**
+
+**2. Download the checkpoint of mplug-owl from this [link](https://huggingface.co/MAGAer13/mplug-owl-llama-7b-ft)**
 
 ## Evaluation(GAVIE)
 
@@ -148,4 +152,5 @@ If you find our work useful for your your research and applications, please cite
 ## License
 This repository is under [BSD 3-Clause License](LICENSE.md). 
 Many codes are based on [MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4) 
+Many codes are based on [mplug-Owl](https://github.com/Vision-CAIR/MiniGPT-4)
 with BSD 3-Clause License [here](LICENSE_MiniGPT4.md).
