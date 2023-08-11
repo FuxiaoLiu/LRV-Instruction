@@ -7,7 +7,7 @@ You can compare between our models and original models below. If the online demo
 
 📺
 [[LRV-Minigpt4-7B Demo](https://231c5c264e14d2e70d.gradio.live)], [[MiniGPT4-7B Demo](https://845afff41e18071084.gradio.live)]
-
+📺
 [[LRV-mplug-owl Demo](https://6317a88425a1b6459a.gradio.live)], [[mplug-owl Demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl)]
 
 
@@ -27,8 +27,7 @@ Here is an overview of our work:
 
 ## Contents
 - [Dataset](#Visual_Instruction_Data_(LRV-Instruction))
-- [Inference](#Inference)
-- [Demo](#Demo)
+- [Models](#Models)
 - [Evaluation(GAVIE)](#Evaluation(GAVIE))
 
 ## Visual Instruction Data (LRV-Instruction)
@@ -40,8 +39,9 @@ For each instance, `image_id` refers to the image from [Visual Genome](https://a
 
 We provide our prompts for GPT-4 queries to better facilitate research in this domain. Please check out the `prompts` folder for positive and negative instance generation. `negative1_generation_prompt.txt` contains the prompt to generate negative instructions with Nonexistent Element Manipulation. `negative2_generation_prompt.txt` contains the prompt to generate negative instructions with Existent Element Manipulation. You can refer to the code [here](https://github.com/FuxiaoLiu/LRV-Instruction/blob/main/data/data_generation.py) to generate more data. Please see our paper for more details.
 
-## Model Setup
+## Models
 
+### LRV-MiniGPT4 Setup
 **1. Clone this repository**
 ```bash
 https://github.com/FuxiaoLiu/LRV-Instruction.git
