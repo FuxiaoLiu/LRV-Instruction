@@ -92,7 +92,7 @@ python inference.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 ```
 
 ### 🐒LRV-Instruction(V2) Setup
-* LRV-Instruction(V1) is based on plug-Owl-7B.
+* LRV-Instruction(V2) is based on plug-Owl-7B.
 
 
 **1. Install the environment according to [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl#Usage).**
