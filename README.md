@@ -6,9 +6,9 @@
 You can compare between our models and original models below. If the online demos don't work, please email `fl3es@umd.edu`.
 
 📺
-[[LRV-Minigpt4-7B Demo](https://231c5c264e14d2e70d.gradio.live)], [[MiniGPT4-7B Demo](https://845afff41e18071084.gradio.live)]
+[[LRV-Minigpt4-7B(V1) Demo](https://231c5c264e14d2e70d.gradio.live)], [[MiniGPT4-7B Demo](https://845afff41e18071084.gradio.live)]
 📺
-[[LRV-mplug-owl Demo](https://6317a88425a1b6459a.gradio.live)], [[mplug-owl Demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl)]
+[[LRV-mplug-owl(V2) Demo](https://6317a88425a1b6459a.gradio.live)], [[mplug-owl Demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl)]
 
 
 
@@ -37,7 +37,8 @@ We provide our prompts for GPT-4 queries to better facilitate research in this d
 
 ## Models
 
-### 🐒LRV-MiniGPT4 Setup
+### 🐒LRV-Instruction(V1) Setup
+* LRV-Instruction(V1) is based on MiniGPT4-7B.
 **1. Clone this repository**
 ```bash
 https://github.com/FuxiaoLiu/LRV-Instruction.git
@@ -88,8 +89,8 @@ cd ./MiniGPT-4
 python inference.py --cfg-path eval_configs/minigpt4_eval.yaml  --gpu-id 0
 ```
 
-### 🐒LRV-Mplug-Owl Setup
-
+### 🐒LRV-Instruction(V2) Setup
+* LRV-Instruction(V1) is based on plug-Owl-7B.
 **1. Install the environment according to [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl#Usage).**
 
 We finetuned mplug-owl on 8 V100. If you meet any questions when implement on V100, feel free to let me know!
