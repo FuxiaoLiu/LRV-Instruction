@@ -135,7 +135,7 @@ python -m serve.web_server --base-model 'the mplug-owl checkpoint directory' --b
 
 **5. Model Inference**
 
-First git clone the codr from [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl), replace the `/mplug/serve/model_worker.py` with our `/utils/model_worker.py` and add the file `/utils/inference.py`. Then edit the [input data file](utils/inference.py#L405) and [image folder path](utils/inference.py#L401). Finally run
+First git clone the codr from [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl), replace the `/mplug/serve/model_worker.py` with our `/utils/model_worker.py` and add the file `/utils/inference.py`. Then edit the [input data file](utils/inference.py#L405) and [image folder path](utils/inference.py#L401). Finally run:
 
 ```
 python -m serve.inference --base-model 'your checkpoint directory' --bf16
