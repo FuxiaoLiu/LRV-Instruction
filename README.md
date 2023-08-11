@@ -3,10 +3,9 @@
 
 [[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](http://arxiv.org/abs/2306.14565)] 
 
-You can compare between our model and original MiniGPT4-7B below. If the online demo doesn't work, please email `fl3es@umd.edu`.
-
+You can compare between our models and original models below. If the online demos don't work, please email `fl3es@umd.edu`.
+📺
 [[LRV-Minigpt4-7B Demo](https://231c5c264e14d2e70d.gradio.live)], [[MiniGPT4-7B Demo](https://845afff41e18071084.gradio.live)]
-
 
 [[LRV-mplug-owl Demo](https://6317a88425a1b6459a.gradio.live)], [[mplug-owl Demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl)]
 
@@ -19,6 +18,7 @@ Here is an overview of our work:
 </p>
 
 ## Updates
+- [-/-] 🔥  More finetuned models will be released soon!
 - [8/05] 🔥 We finetuned [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl) on LRV-Instruction and achieve SOTA results on [MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation) benchmark.
 - [6/30] 🔥 Our dataset is available on [Hugging Face](https://huggingface.co/datasets/VictorSanh/LrvInstruction).
 - [6/27] 🔥 Our paper is tweeted by [AK](https://twitter.com/_akhaliq).
