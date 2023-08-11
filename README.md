@@ -152,6 +152,16 @@ For each instance, `image_id` refers to the image from [Visual Genome](https://a
 
 To evaluate your model outputs, first download the vg annotations from [here](download.txt#L15). Second generate the evaluation prompt according to the code [here](Evaluation/evaluate.py). Third, feed the prompt into GPT4.
 
+## Leaderboards
+
+| Rank |                            Model                             |                           Relevancy                            |    Accuracy    |
+| :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: |
+|  🏅️   |       **LRV-Instruction V1**       |    **8.46**    | **6.58** |
+|  🥈   |      **InstructBLIP**     | **7.34** | **5.93** |
+|  🥉   |      **LLaVA**       |  **6.11**   | **4.36** |
+|  4   |     **MiniGPT4**     | 5.81 |   4.14   |
+|  5   |      **Multimodal-GPT**     |                           1.79                             |   0.91   |
+
 
 
 ## Acknowledgement
