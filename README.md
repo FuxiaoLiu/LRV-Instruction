@@ -104,18 +104,16 @@ First download the checkpoint of mplug-owl from [link](https://huggingface.co/MA
 
 **3. Edit the Code**
 
-
-As for the mplug-owl/serve/model_worker.py, edit the following code and enter the path of the adapter model weight from [link](https://huggingface.co/MAGAer13/mplug-owl-llama-7b-ft) in lora_path.
+As for the `mplug-owl/serve/model_worker.py`, edit the following code and enter the path of the adapter model weight from [link](https://huggingface.co/MAGAer13/mplug-owl-llama-7b-ft) in lora_path.
 ```
-self.log_dir = log_dir
 self.image_processor = MplugOwlImageProcessor.from_pretrained(base_model)
 self.tokenizer = AutoTokenizer.from_pretrained(base_model)
 self.processor = MplugOwlProcessor(self.image_processor, self.tokenizer)
 self.model = MplugOwlForConditionalGeneration.from_pretrained(
- base_model,
- load_in_8bit=load_in_8bit,
- torch_dtype=torch.bfloat16 if bf16 else torch.half,
- device_map="auto"
+     base_model,
+     load_in_8bit=load_in_8bit,
+     torch_dtype=torch.bfloat16 if bf16 else torch.half,
+     device_map="auto"
  )
 self.tokenizer = self.processor.tokenizer
 
@@ -126,6 +124,16 @@ lora_path = 'Your adapter model path'
 prefix_state_dict = torch.load(lora_path, map_location='cpu')
 self.model.load_state_dict(prefix_state_dict)
 ```
+
+**4. Local Demo**
+
+When you launch the demo in local machine, you might find there is no space for the text input. This is because of the version conflict between python and gradio. The simplest solution is to do `conda activate LRV`
+
+```
+python -m serve.web_server --base-model 'the mplug-owl checkpoint directory' --bf16
+```
+
+
 
 
 ## Evaluation(GAVIE)
