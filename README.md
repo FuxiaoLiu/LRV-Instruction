@@ -105,7 +105,7 @@ First download the checkpoint of mplug-owl from [link](https://huggingface.co/MA
 **3. Edit the Code**
 
 As for the `mplug-owl/serve/model_worker.py`, edit the following code and enter the path of the lora model weight in lora_path.
-``!
+```
 self.image_processor = MplugOwlImageProcessor.from_pretrained(base_model)
 self.tokenizer = AutoTokenizer.from_pretrained(base_model)
 self.processor = MplugOwlProcessor(self.image_processor, self.tokenizer)
