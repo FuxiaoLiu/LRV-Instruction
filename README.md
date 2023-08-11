@@ -100,12 +100,12 @@ We finetuned mplug-owl on 8 V100. If you meet any questions when implement on V1
 
 **2. Download the Checkpoint**
 
-First download the checkpoint of mplug-owl from [link](https://huggingface.co/MAGAer13/mplug-owl-llama-7b-ft) and the adapter model weight from [link](https://huggingface.co/MAGAer13/mplug-owl-llama-7b-ft).
+First download the checkpoint of mplug-owl from [link](https://huggingface.co/MAGAer13/mplug-owl-llama-7b-ft) and the trained lora model weight from [link](https://huggingface.co/MAGAer13/mplug-owl-llama-7b-ft)(released soon!).
 
 **3. Edit the Code**
 
-As for the `mplug-owl/serve/model_worker.py`, edit the following code and enter the path of the adapter model weight from [link](https://huggingface.co/MAGAer13/mplug-owl-llama-7b-ft) in lora_path.
-```
+As for the `mplug-owl/serve/model_worker.py`, edit the following code and enter the path of the lora model weight in lora_path.
+``!
 self.image_processor = MplugOwlImageProcessor.from_pretrained(base_model)
 self.tokenizer = AutoTokenizer.from_pretrained(base_model)
 self.processor = MplugOwlProcessor(self.image_processor, self.tokenizer)
@@ -120,7 +120,7 @@ self.tokenizer = self.processor.tokenizer
         
 peft_config = LoraConfig(target_modules=r'.*language_model.*\.(q_proj|v_proj)', inference_mode=False, r=8,lora_alpha=32, lora_dropout=0.05)
 self.model = get_peft_model(self.model, peft_config)
-lora_path = 'Your adapter model path'
+lora_path = 'Your lora model path'
 prefix_state_dict = torch.load(lora_path, map_location='cpu')
 self.model.load_state_dict(prefix_state_dict)
 ```
