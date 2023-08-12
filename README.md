@@ -5,10 +5,13 @@
 
 You can compare between our models and original models below. If the online demos don't work, please email `fl3es@umd.edu`.
 
-📺
-[[LRV-Minigpt4-7B(V1) Demo](https://231c5c264e14d2e70d.gradio.live)], [[MiniGPT4-7B Demo](https://845afff41e18071084.gradio.live)]
+
 📺
 [[LRV-mplug-owl(V2) Demo](https://cbd7836a73a5dec96e.gradio.live)], [[mplug-owl Demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl)]
+<br>
+📺
+[[LRV-Minigpt4-7B(V1) Demo](https://231c5c264e14d2e70d.gradio.live)], [[MiniGPT4-7B Demo](https://845afff41e18071084.gradio.live)]
+
 
 
 ## Updates
