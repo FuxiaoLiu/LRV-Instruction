@@ -136,7 +136,7 @@ python -m serve.web_server --base-model 'the mplug-owl checkpoint directory' --b
 
 **5. Model Inference**
 
-First git clone the codr from [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl), replace the `/mplug/serve/model_worker.py` with our `/utils/model_worker.py` and add the file `/utils/inference.py`. Then edit the [input data file](utils/inference.py#L405) and [image folder path](utils/inference.py#L401). Finally run:
+First git clone the code from [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl), replace the `/mplug/serve/model_worker.py` with our `/utils/model_worker.py` and add the file `/utils/inference.py`. Then edit the [input data file](utils/inference.py#L405) and [image folder path](utils/inference.py#L401). Finally run:
 
 ```
 python -m serve.inference --base-model 'your checkpoint directory' --bf16
@@ -159,7 +159,7 @@ To evaluate your model outputs, first download the vg annotations from [here](do
 
 ## Leaderboards
 
-GPT4/ChatGPT work as smart teacherd and score (0-10) students’ answers based on two criteria.
+GPT4/ChatGPT work as smart teachers and score (0-10) students’ answers based on two criteria.
 
 (1) Accuracy: whether the response hallucinates with the image content.
 (2) Relevancy: whether the response directly follows the instruction.
