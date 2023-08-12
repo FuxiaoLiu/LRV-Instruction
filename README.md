@@ -10,9 +10,6 @@ You can compare between our models and original models below. If the online demo
 📺
 [[LRV-mplug-owl(V2) Demo](https://cbd7836a73a5dec96e.gradio.live)], [[mplug-owl Demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl)]
 
-<p align="center">
-    <a href="https://llava.hliu.cc/"><img src="./ranking.jpg" width="70%"></a> <br>
-</p>
 
 ## Updates
 - [-/-] 🔥  More finetuned models will be released soon!
@@ -21,6 +18,10 @@ You can compare between our models and original models below. If the online demo
 - [6/30] 🔥 Our dataset is available on [Hugging Face](https://huggingface.co/datasets/VictorSanh/LrvInstruction).
 - [6/27] 🔥 Our paper is tweeted by [AK](https://twitter.com/_akhaliq).
 - [6/26] 🔥 Our technical report is available on [arxiv](http://arxiv.org/abs/2306.14565).
+
+<p align="center">
+    <a href="https://llava.hliu.cc/"><img src="./ranking.jpg" width="90%"></a> <br>
+</p>
 
 
 ## Visual Instruction Data (LRV-Instruction)
