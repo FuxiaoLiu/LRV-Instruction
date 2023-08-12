@@ -33,7 +33,7 @@ For each instance, `image_id` refers to the image from [Visual Genome](https://a
 
 We provide our prompts for GPT-4 queries to better facilitate research in this domain. Please check out the `prompts` folder for positive and negative instance generation. `negative1_generation_prompt.txt` contains the prompt to generate negative instructions with Nonexistent Element Manipulation. `negative2_generation_prompt.txt` contains the prompt to generate negative instructions with Existent Element Manipulation. You can refer to the code [here](https://github.com/FuxiaoLiu/LRV-Instruction/blob/main/data/data_generation.py) to generate more data. Please see our paper for more details.
 
-#### LRV-Instruction can equip the LMM with the ability to say no and also provide correct answers, although we don't chart images in the datasets.
+#### LRV-Instruction can equip the LMM with the ability to say no and also provide correct answers.
 <p align="center">
     <a href="https://llava.hliu.cc/"><img src="./chart_example1.jpg" width="70%"></a> <br>
 </p>
