@@ -20,7 +20,8 @@ Here is an overview of our work:
 
 ## Updates
 - [-/-] 🔥  More finetuned models will be released soon!
-- [8/05] 🔥 We finetuned [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl) on LRV-Instruction and achieve SOTA results on [MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation) benchmark.
+- [8/05] 🔥 LRV-Instruction V2 finetuned on [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl) achieves SOTA results on [MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation) benchmark.
+- [7/05] 🔥 LRV-Instruction V1 finetuned on [MiniGPt4](https://github.com/X-PLUG/mPLUG-Owl) is released! 
 - [6/30] 🔥 Our dataset is available on [Hugging Face](https://huggingface.co/datasets/VictorSanh/LrvInstruction).
 - [6/27] 🔥 Our paper is tweeted by [AK](https://twitter.com/_akhaliq).
 - [6/26] 🔥 Our technical report is available on [arxiv](http://arxiv.org/abs/2306.14565).
