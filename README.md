@@ -12,7 +12,6 @@ You can compare between our models and original models below. If the online demo
 
 
 ## Updates
-- [-/-] 🔥  More finetuned models will be released soon!
 - [8/05] 🔥 LRV-Instruction V2 finetuned on [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl) achieves SOTA results on [MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation) benchmark.
 - [7/05] 🔥 LRV-Instruction V1 finetuned on [MiniGPt4](https://github.com/X-PLUG/mPLUG-Owl) is released! 
 - [6/30] 🔥 Our dataset is available on [Hugging Face](https://huggingface.co/datasets/VictorSanh/LrvInstruction).
