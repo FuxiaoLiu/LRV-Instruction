@@ -163,7 +163,7 @@ We introduce GPT4-Assisted Visual Instruction Evaluation (GAVIE) as a more flexi
 
 Our evaluation set is available at [here](Evaluation/evaluation_set.json).
 ```
-{'image_id': '2380160', 'instruction': 'Identify the type of transportation infrastructure present in the scene.', 'answer_gt': 'Railroad tracks'}
+{'image_id': '2380160', 'instruction': 'Identify the type of transportation infrastructure present in the scene.'}
 ```
 For each instance, `image_id` refers to the image from [Visual Genome](https://arxiv.org/pdf/1602.07332v1.pdf). `instruction` refers to the instruction. `answer_gt` refers to the groundtruth answer from Text-Only GPT4 but we don't use them in our evaluation. Instead, we use Text-Only GPT4 to evaluate the model output by using the dense captions and bounding boxes from [Visual Genome](https://arxiv.org/pdf/1602.07332v1.pdf) dataset as the visual contents. 
 
