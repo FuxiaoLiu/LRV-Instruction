@@ -12,7 +12,7 @@ You can compare between our models and original models below. If the online demo
 
 
 📺
-[[LRV-V1(MiniGPT4) Demo](https://231c5c264e14d2e70d.gradio.live)], [[MiniGPT4-7B Demo](https://845afff41e18071084.gradio.live)]
+[[LRV-V1(MiniGPT4) Demo](https://b7c3a72007dfdd0a0f.gradio.live)], [[MiniGPT4-7B Demo](https://a7adeb59efb6b836f2.gradio.live)]
 
 
 
