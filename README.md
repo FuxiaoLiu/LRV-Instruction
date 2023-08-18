@@ -3,7 +3,7 @@
 
 [[Project Page](https://fuxiaoliu.github.io/LRV/)] [[Paper](http://arxiv.org/abs/2306.14565)] 
 
-You can compare between our models and original models below. If the online demos don't work, please email `fl3es@umd.edu`.
+You can compare between our models and original models below. If the online demos don't work, please email `fl3es@umd.edu`. If you find our work interesting, please cite our work. Thanks!!!
 
 
 📺
