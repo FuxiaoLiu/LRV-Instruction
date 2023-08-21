@@ -32,7 +32,7 @@ You can compare between our models and original models below. If the online demo
 
 ## Model Checkpoints
 | Model name | Backbone | Download Link |
-| --- | ---: |
+| --- | --- |---: |
 | **LRV-Instruction V2** | Mplug-Owl | [link](download.txt#L24) |
 | **LRV-Instruction V1** | MiniGPT4 |  [link](download.txt#L18) |
 
