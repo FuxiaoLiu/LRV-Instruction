@@ -20,6 +20,9 @@ gdown https://drive.google.com/uc?id=11KJA8bSNi1yxgcijsG3xfBHvWe8C748F
 #More Instruction data
 gdown https://drive.google.com/uc?id=1E83vpCY8ofEDGFZLjpIjPWHHJvocrWVj
 
+#lora checkpoint of finetune mplug-owl
+gdown https://drive.google.com/uc?id=1hCL4u2fTkAr8qhoZUqlhF923G_sTpqFn
+
 Since the website of Visual Genome dataset is down, we upload images for better reproducing our work in research community. 
 It must not be used for any other purposes. The use of these images must comply with the Visual Genome license. 
 This may be taken down at any time when requested by the original Visual Genome dataset owner or owners of the referenced images.
