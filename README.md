@@ -110,7 +110,7 @@ We finetuned mplug-owl on 8 V100. If you meet any questions when implement on V1
 
 **2. Download the Checkpoint**
 
-First download the checkpoint of mplug-owl from [link](https://huggingface.co/MAGAer13/mplug-owl-llama-7b-ft) and the trained lora model weight from [link](https://huggingface.co/MAGAer13/mplug-owl-llama-7b-ft)(released soon!).
+First download the checkpoint of mplug-owl from [link](https://huggingface.co/MAGAer13/mplug-owl-llama-7b-ft) and the trained lora model weight from [here](download.txt#L24).
 
 **3. Edit the Code**
 
