@@ -31,10 +31,10 @@ You can compare between our models and original models below. If the online demo
 </p>
 
 ## Model Checkpoints
-| Model name | Download Link |
+| Model name | Backbone | Download Link |
 | --- | ---: |
-| **LRV-Instruction V2** | [link](download.txt#L24) |
-| **LRV-Instruction V1** | [link](download.txt#L18) |
+| **LRV-Instruction V2** | Mplug-Owl | [link](download.txt#L24) |
+| **LRV-Instruction V1** | MiniGPT4 |  [link](download.txt#L18) |
 
 
 ## Visual Instruction Data (LRV-Instruction)
