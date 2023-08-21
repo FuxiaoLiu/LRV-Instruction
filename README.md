@@ -34,7 +34,7 @@ You can compare between our models and original models below. If the online demo
 | Model name | Download Link |
 | --- | ---: |
 | **LRV-Instruction V2** | [link](download.txt#L24) |
-| **LRV-Instruction V1** | [here](download.txt#L18) |
+| **LRV-Instruction V1** | [link](download.txt#L18) |
 
 
 ## Visual Instruction Data (LRV-Instruction)
