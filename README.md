@@ -17,8 +17,8 @@ You can compare between our models and original models below. If the online demo
 
 
 ## Updates
-- [8/17] 🔥 Model weight of **LRV-Instruction V2** is available from [here](download.txt#L24).
-- [8/16] 🔥 We release additional **180k** visual instruction tuning data by generated GPT4.  You can download from [here](download.txt#L20). Our LRV-Instruction dataset contains **300k** visual instruction data in total. 
+- [8/17] 🔥 Model weight of **LRV-Instruction V2** is available from [here](download.txt#L24). 
+- [8/16] 🔥 We release additional **180k** visual instruction tuning data by generated GPT4.  You can download from [here](download.txt#L20). We also release some visual instruction data for chart images to increase the diversity of our dataset.[link](https://github.com/FuxiaoLiu/LRV-Instruction/blob/main/data/chart_data.json). Our LRV-Instruction dataset contains **320k** visual instruction data from in total.
 - [8/14] 🔥 We **manually clean** the dataset. The new version can be downloaded from [Training Set](download.txt#L5) and [Evaluation Set](Evaluation/evaluation_set.json).
 - [8/05] 🔥 **LRV-Instruction V2** finetuned on [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl) achieves **SOTA results** on [MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation) benchmark.
 - [7/05] 🔥 LRV-Instruction V1 finetuned on [MiniGPt4](https://github.com/X-PLUG/mPLUG-Owl) is released! 
