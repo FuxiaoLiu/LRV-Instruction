@@ -24,6 +24,13 @@ gdown https://drive.google.com/uc?id=1E83vpCY8ofEDGFZLjpIjPWHHJvocrWVj
 gdown https://drive.google.com/uc?id=1049ICFtqg8_1Os7YQ8jpgQerQbMa6I_7
 
 
+#Instruction data without coordinates
+gdown https://drive.google.com/uc?id=1pWkxE2kqpys1VdwBi99ZXN6-XY5SqhwU
+
+#More Instruction data without coordinates
+gdown https://drive.google.com/uc?id=1NTxkuRPlvDn7aWaJpK_yb0p5r0cxPLNZ
+
+
 Since the website of Visual Genome dataset is down, we upload images for better reproducing our work in research community. 
 It must not be used for any other purposes. The use of these images must comply with the Visual Genome license. 
 This may be taken down at any time when requested by the original Visual Genome dataset owner or owners of the referenced images.
