@@ -187,7 +187,7 @@ To evaluate your model outputs, first download the vg annotations from [here](do
 
 ## Leaderboards
 
-GPT4/ChatGPT work as smart teachers and score (0-10) students’ answers based on two criteria.
+GPT4(GPT4-32k-0314) work as smart teachers and score (0-10) students’ answers based on two criteria.
 
 (1) Accuracy: whether the response hallucinates with the image content.
 (2) Relevancy: whether the response directly follows the instruction.
