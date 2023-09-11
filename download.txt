@@ -31,7 +31,7 @@ gdown https://drive.google.com/uc?id=1pWkxE2kqpys1VdwBi99ZXN6-XY5SqhwU
 gdown https://drive.google.com/uc?id=1NTxkuRPlvDn7aWaJpK_yb0p5r0cxPLNZ
 
 #chart instruction data
-gdown https://drive.google.com/uc?id=1acXZIriTXa25foTPJ3KLRM_VwmYi0QGP
+gdown https://drive.google.com/uc?id=13j2U-ectsYGR92r6J5hPdhT8T5ezItHF
 
 #Chart insruction image
 gdown https://drive.google.com/uc?id=1r7pVc4dTGgghHRdgB7ZHAnhTEDG0pT-h
