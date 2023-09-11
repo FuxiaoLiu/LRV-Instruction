@@ -34,7 +34,7 @@ gdown https://drive.google.com/uc?id=1NTxkuRPlvDn7aWaJpK_yb0p5r0cxPLNZ
 gdown https://drive.google.com/uc?id=13j2U-ectsYGR92r6J5hPdhT8T5ezItHF
 
 #Chart insruction image
-gdown https://drive.google.com/uc?id=1r7pVc4dTGgghHRdgB7ZHAnhTEDG0pT-h
+gdown https://drive.google.com/uc?id=1rRBalZ9ScFPE9ud36shWGuNqMnquDMSx
 
 Since the website of Visual Genome dataset is down, we upload images for better reproducing our work in research community. 
 It must not be used for any other purposes. The use of these images must comply with the Visual Genome license. 
