@@ -192,13 +192,6 @@ GPT4(GPT4-32k-0314) work as smart teachers and score (0-10) students’ answers 
 (1) Accuracy: whether the response hallucinates with the image content.
 (2) Relevancy: whether the response directly follows the instruction.
 
-| Rank |                            Model                             |                           Relevancy                            |    Accuracy    |
-| :--: | :----------------------------------------------------------: | :----------------------------------------------------------: | :---------: |
-|  🏅️   |       **LRV-Instruction V1**       |    **8.46**    | **6.58** |
-|  🥈   |      **InstructBLIP-7B**     | 7.34 | 5.93 |
-|  🥉   |      **LLaVA-7B**       |  6.11   | 4.36 |
-|  4   |     **MiniGPT4-7B**     | 5.81 |   4.14   |
-|  5   |      **Multimodal-GPT-7B**     |                           1.79                             |   0.91   |
 
 
 
