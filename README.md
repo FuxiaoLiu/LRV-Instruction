@@ -5,6 +5,8 @@
 
 You can compare between our models and original models below. If the online demos don't work, please email `fl3es@umd.edu`. If you find our work interesting, please cite our work. Thanks!!!
 
+### Both LRV-V1 and LRV-V2 support training on V100 32GB.
+
 
 📺
 [[LRV-V2(Mplug-Owl) Demo](https://2e493f50be28354855.gradio.live)], [[mplug-owl Demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl)]
