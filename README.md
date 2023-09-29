@@ -19,6 +19,7 @@ You can compare between our models and original models below. If the online demo
 
 
 ## Updates
+- [9/20] 🔥 More knowledge manipulation data will be release soon!
 - [8/24] 🔥 We release some visual instruction data (with knowledge manipulations) for chart images to increase the diversity of our dataset. [data](download.txt#L33) and [image](download.txt#L36).
 - [8/17] 🔥 Model weight of **LRV-Instruction V2** is available from [here](download.txt#L24). 
 - [8/16] 🔥 We release additional **180k** visual instruction tuning data by generated GPT4.  You can download from [here](download.txt#L20). Our LRV-Instruction dataset contains **320k** visual instruction data from in total.
