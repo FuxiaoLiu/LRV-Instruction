@@ -9,7 +9,7 @@ You can compare between our models and original models below. If the online demo
 
 
 📺
-[[LRV-V2(Mplug-Owl) Demo](https://1f1f564ad1054ae1f8.gradio.live)], [[mplug-owl Demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl)]
+[[LRV-V2(Mplug-Owl) Demo](https://15c8c4033bdab80ee0.gradio.live)], [[mplug-owl Demo](https://huggingface.co/spaces/MAGAer13/mPLUG-Owl)]
 <br>
 
 
