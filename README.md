@@ -27,6 +27,7 @@ You can compare between our models and original models below. If the online demo
 
 
 ## Updates
+- [10/24]🔥 Please check our new work to benchmark GPT4V and LLAVa1.5 ["HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"](https://arxiv.org/abs/2310.14566).
 - [9/20] 🔥 More knowledge manipulation data will be release soon!
 - [8/24] 🔥 We release some visual instruction data (with knowledge manipulations) for chart images to increase the diversity of our dataset. [data](download.txt#L33) and [image](download.txt#L36).
 - [8/17] 🔥 Model weight of **LRV-Instruction V2** is available from [here](download.txt#L24). 
