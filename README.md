@@ -11,6 +11,12 @@ You can compare between our models and original models below. If the online demo
   journal={arXiv preprint arXiv:2306.14565},
   year={2023}
 }
+@article{liu2023hallusionbench,
+  title={HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V (ision), LLaVA-1.5, and Other Multi-modality Models},
+  author={Liu, Fuxiao and Guan, Tianrui and Li, Zongxia and Chen, Lichang and Yacoob, Yaser and Manocha, Dinesh and Zhou, Tianyi},
+  journal={arXiv preprint arXiv:2310.14566},
+  year={2023}
+}
 ```
 
 ### Both LRV-V1 and LRV-V2 support training on V100 32GB.
