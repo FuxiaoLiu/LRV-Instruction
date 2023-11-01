@@ -41,7 +41,7 @@ You can compare between our models and original models below. If the online demo
 - [8/14] 🔥 We **manually clean** the dataset. The new version can be downloaded from [Training Set](download.txt#L5) and [Evaluation Set](Evaluation/evaluation_set.json).
 - [8/05] 🔥 **LRV-Instruction V2** finetuned on [mplug-owl](https://github.com/X-PLUG/mPLUG-Owl) achieves **SOTA results** on [MME](https://github.com/BradyFU/Awesome-Multimodal-Large-Language-Models/tree/Evaluation) benchmark.
 - [7/05] 🔥 LRV-Instruction V1 finetuned on [MiniGPt4](https://github.com/X-PLUG/mPLUG-Owl) is released! 
-- [6/30] 🔥 Our dataset is available on [Hugging Face](https://huggingface.co/datasets/VictorSanh/LrvInstruction).
+- [6/30] 🔥 Our dataset is available on [Hugging Face](https://huggingface.co/datasets/VictorSanh/LrvInstruction).(**It's the old version**)
 - [6/27] 🔥 Our paper is tweeted by [AK](https://twitter.com/_akhaliq).
 - [6/26] 🔥 Our technical report is available on [arxiv](http://arxiv.org/abs/2306.14565).
 
