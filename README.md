@@ -33,6 +33,7 @@ You can compare between our models and original models below. If the online demo
 
 
 ## Updates
+- [01/15]🔥 Our paper is accepted by **[ICLR 2024](https://iclr.cc)**. Camera-Ready Version will be ready soon!
 - [10/24]🔥 Please check our new work to benchmark the **failure cases of GPT4V** ["HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"](https://arxiv.org/abs/2310.14566)([repo](https://github.com/tianyi-lab/HallusionBench)).
 - [9/20] 🔥 More knowledge manipulation data will be release soon!
 - [8/24] 🔥 We release some visual instruction data (with knowledge manipulations) for chart images to increase the diversity of our dataset. [data](download.txt#L33) and [image](download.txt#L36).
