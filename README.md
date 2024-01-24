@@ -17,6 +17,12 @@ You can compare between our models and original models below. If the online demo
   journal={arXiv preprint arXiv:2310.14566},
   year={2023}
 }
+@article{liu2023mmc,
+  title={MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning},
+  author={Liu, Fuxiao and Wang, Xiaoyang and Yao, Wenlin and Chen, Jianshu and Song, Kaiqiang and Cho, Sangwoo and Yacoob, Yaser and Yu, Dong},
+  journal={arXiv preprint arXiv:2311.10774},
+  year={2023}
+}
 ```
 
 ### Both LRV-V1 and LRV-V2 support training on V100 32GB.
@@ -34,6 +40,7 @@ You can compare between our models and original models below. If the online demo
 
 ## Updates
 - [01/15]🔥 Our paper is accepted by **[ICLR 2024](https://iclr.cc)**. Camera-Ready Version will be ready soon!
+- [11/15]🔥 Our paper ["MMC: Advancing Multimodal Chart Understanding with LLM Instruction Tuning"](https://arxiv.org/pdf/2311.10774.pdf) is now available on Arxiv. 
 - [10/24]🔥 Please check our new work to benchmark the **failure cases of GPT4V** ["HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"](https://arxiv.org/abs/2310.14566)([repo](https://github.com/tianyi-lab/HallusionBench)).
 - [9/20] 🔥 More knowledge manipulation data will be release soon!
 - [8/24] 🔥 We release some visual instruction data (with knowledge manipulations) for chart images to increase the diversity of our dataset. [data](download.txt#L33) and [image](download.txt#L36).
