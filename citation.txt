@@ -1,0 +1,48 @@
+@article{liu2023aligning,
+  title={Aligning Large Multi-Modal Model with Robust Instruction Tuning},
+  author={Liu, Fuxiao and Lin, Kevin and Li, Linjie and Wang, Jianfeng and Yacoob, Yaser and Wang, Lijuan},
+  journal={arXiv preprint arXiv:2306.14565},
+  year={2023}
+}
+@article{liu2023hallusionbench,
+  title={HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V (ision), LLaVA-1.5, and Other Multi-modality Models},
+  author={Liu, Fuxiao and Guan, Tianrui and Li, Zongxia and Chen, Lichang and Yacoob, Yaser and Manocha, Dinesh and Zhou, Tianyi},
+  journal={arXiv preprint arXiv:2310.14566},
+  year={2023}
+}
+@article{liu2020visual,
+  title={Visual news: Benchmark and challenges in news image captioning},
+  author={Liu, Fuxiao and Wang, Yinghan and Wang, Tianlu and Ordonez, Vicente},
+  journal={arXiv preprint arXiv:2010.03743},
+  year={2020}
+}
+@article{liu2023covid,
+  title={COVID-VTS: Fact Extraction and Verification on Short Video Platforms},
+  author={Liu, Fuxiao and Yacoob, Yaser and Shrivastava, Abhinav},
+  journal={arXiv preprint arXiv:2302.07919},
+  year={2023}
+}
+@article{liu2023documentclip,
+  title={DocumentCLIP: Linking Figures and Main Body Text in Reflowed Documents},
+  author={Liu, Fuxiao and Tan, Hao and Tensmeyer, Chris},
+  journal={arXiv preprint arXiv:2306.06306},
+  year={2023}
+}
+@article{liu2023mmc,
+  title={MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning},
+  author={Liu, Fuxiao and Wang, Xiaoyang and Yao, Wenlin and Chen, Jianshu and Song, Kaiqiang and Cho, Sangwoo and Yacoob, Yaser and Yu, Dong},
+  journal={arXiv preprint arXiv:2311.10774},
+  year={2023}
+}
+@article{li2023towards,
+  title={Towards understanding in-context learning with contrastive demonstrations and saliency maps},
+  author={Li, Zongxia and Xu, Paiheng and Liu, Fuxiao and Song, Hyemi},
+  journal={arXiv preprint arXiv:2307.05052},
+  year={2023}
+}
+@article{wang2024mementos,
+  title={Mementos: A Comprehensive Benchmark for Multimodal Large Language Model Reasoning over Image Sequences},
+  author={Wang, Xiyao and Zhou, Yuhang and Liu, Xiaoyu and Lu, Hongjin and Xu, Yuancheng and He, Feihong and Yoon, Jaehong and Lu, Taixi and Bertasius, Gedas and Bansal, Mohit and others},
+  journal={arXiv preprint arXiv:2401.10529},
+  year={2024}
+}
