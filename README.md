@@ -219,14 +219,14 @@ GPT4(GPT4-32k-0314) work as smart teachers and score (0-10) students’ answers 
 (2) Relevancy: whether the response directly follows the instruction.
 
 
-|Method	|GAVIE-Accuracy	|GAVIE-Relevancy
-|  ----  | ----  |
-|LLaVA1-7B	|4.36	|6.11
-|LLaVA 1.5-7B|	6.42	|8.20
-|MiniGPT4-v1-7B|	4.14	|5.81
-|MiniGPT4-v2-7B|	6.01	|8.10
-|mPLUG-Owl-7B|	4.84	|6.35
-|Ours-7B	|6.58	|8.46
+|Method	|GAVIE-Accuracy	|GAVIE-Relevancy|
+|  ---  | ---  |---:  |
+|LLaVA1-7B	|4.36	|6.11|
+|LLaVA 1.5-7B|	6.42	|8.20|
+|MiniGPT4-v1-7B|	4.14	|5.81|
+|MiniGPT4-v2-7B|	6.01	|8.10|
+|mPLUG-Owl-7B|	4.84	|6.35|
+|Ours-7B	|6.58	|8.46|
 
 
 
