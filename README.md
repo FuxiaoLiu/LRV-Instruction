@@ -226,7 +226,7 @@ GPT4(GPT4-32k-0314) work as smart teachers and score (0-10) students’ answers 
 |MiniGPT4-v1-7B|	4.14	|5.81|
 |MiniGPT4-v2-7B|	6.01	|8.10|
 |mPLUG-Owl-7B|	4.84	|6.35|
-|InstructBLIP-7B｜ 5.93｜7.34｜
+|InstructBLIP-7B|5.93|7.34|
 |MMGPT-7B|0.91|1.79|
 |Ours-7B	|6.58	|8.46|
 
