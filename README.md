@@ -221,7 +221,7 @@ GPT4(GPT4-32k-0314) work as smart teachers and score (0-10) students’ answers 
 
 |Method	|GAVIE-Accuracy	|GAVIE-Relevancy|
 |  ---  | ---  |---:  |
-|LLaVA1-7B	|4.36	|6.11|
+|LLaVA1.0-7B	|4.36	|6.11|
 |LLaVA 1.5-7B|	6.42	|8.20|
 |MiniGPT4-v1-7B|	4.14	|5.81|
 |MiniGPT4-v2-7B|	6.01	|8.10|
