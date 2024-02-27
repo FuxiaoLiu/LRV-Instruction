@@ -39,6 +39,7 @@ You can compare between our models and original models below. If the online demo
 
 
 ## Updates
+- [02/26]🔥 Our paper ["HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"](https://arxiv.org/abs/2310.14566) isc accpeted to [CVPR 2024](https://cvpr.thecvf.com).
 - [01/15]🔥 Our paper is accepted by **[ICLR 2024](https://iclr.cc)**. Camera-Ready Version will be ready soon!
 - [11/15]🔥 Our paper ["MMC: Advancing Multimodal Chart Understanding with LLM Instruction Tuning"](https://arxiv.org/pdf/2311.10774.pdf) is now available on Arxiv. 
 - [10/24]🔥 Please check our new work to benchmark the **failure cases of GPT4V** ["HallusionBench: You See What You Think? Or You Think What You See? An Image-Context Reasoning Benchmark Challenging for GPT-4V(ision), LLaVA-1.5, and Other Multi-modality Models"](https://arxiv.org/abs/2310.14566)([repo](https://github.com/tianyi-lab/HallusionBench)).
